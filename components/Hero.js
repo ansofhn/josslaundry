@@ -12,8 +12,8 @@ export default function Hero() {
               <h1 className=" text-5xl font-bold font-monserrat text-darkgreen 2xl:mr-20">
                 Bebaskan Indonesia Dari Jemuran
               </h1>
-              <p className="mt-4 mb-6 text-xl leading-relaxed font-monserrat text-darkgreen 2xl:mr-28">
-                Percayakan pada kami, cucian and bersih dan wangi.
+              <p className="mt-4 mb-6 text-lg leading-relaxed font-monserrat text-darkgreen 2xl:mr-28">
+                Percayakan pada kami, cucian anda bersih dan wangi.
               </p>
             </div>
             <div className="mx-auto">

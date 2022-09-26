@@ -7,7 +7,7 @@ export default function Button({onClick, children, className, ...props }) {
             onClick={onClick}
             className={`${
                 className ? className : "bg-blue-200 hover:bg-blue-600"
-            } px-6 py-2.5 text-sm font-semibold transition duration-400 rounded-lg`}
+            } px-6 py-2.5 text-sm font-semibold transition duration-400 rounded-md`}
         >
             {children}
         </button>

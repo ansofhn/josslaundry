@@ -3,6 +3,7 @@ import React from "react";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Service from "../components/Service";
 import HomeLayout from "../layouts/HomeLayout";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
+      <Service />
       <Footer />
     </>
   );
