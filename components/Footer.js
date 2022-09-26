@@ -36,32 +36,28 @@ export default function Footer() {
               </div>
               <div className="grid grid-cols-3 gap-5">
                 <div>
-                  <h3 className="mb-4 font-sans text-base font-medium text-gray-100">
+                  <h3 className="mb-4 text-base font-medium text-gray-100">
                     Company
                   </h3>
                   <div className="mb-2">
                     <Link href={"/about"}>
-                      <a className="font-sans text-sm hover:text-white">
-                        About Us
-                      </a>
+                      <a className="font-sans text-sm hover:text-white">About Us</a>
                     </Link>
                   </div>
                   <div className="mb-2">
                     <Link href={"/contact"}>
-                      <a className="font-sans text-sm hover:text-white">
-                        Contact Us
-                      </a>
+                      <a className="font-sans text-sm hover:text-white">Contact Us</a>
                     </Link>
                   </div>
                 </div>
                 <div>
-                  <h3 className="mb-4 font-sans text-base font-medium text-gray-100">
+                  <h3 className="mb-4 text-base font-medium text-gray-100">
                     Our Service
                   </h3>
                   <p className="mb-2 font-sans text-sm">Help Center</p>
                   <p className="mb-2 font-sans text-sm">FAQ</p>
                 </div>
-                <div className="py-1 mr-10 font-sans text-sm">
+                <div className="py-1 mr-10 text-sm">
                   Jl. Sukabirus No.88B, Citeureup, Kec. Dayeuhkolot, Bandung,
                   Jawa Barat
                 </div>

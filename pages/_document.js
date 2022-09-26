@@ -30,7 +30,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body>
+        <body className="min-h-screen antialiased tracking-tighter font-poppins">
           <Main />
           <NextScript />
         </body>
