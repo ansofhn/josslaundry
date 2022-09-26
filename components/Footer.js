@@ -7,19 +7,19 @@ export default function Footer() {
     <>
       <footer className="text-gray-100 text-start lg:text-left bg-darkgreen">
         <div className="container">
-          <div className="pt-20 text-center  pb-14 md:text-left">
+          <div className="pt-20 text-center pb-14 md:text-left">
             <div className="grid grid-cols-2 gap-20">
               <div className="mx-auto text-sm text-center">
                 <p className="mb-2">Copyright @ 2022</p>
                 <p>All rights reserved</p>
                 <div className="grid grid-cols-3 gap-2 mt-5">
                   <Link href={"https://instagram.com/ansofhn"}>
-                    <a className="p-2 text-base text-white hover:text-white bg-gray-500/50 rounded-full">
+                    <a className="p-2 text-base text-white rounded-full hover:text-white bg-gray-500/50">
                       <FaInstagram />
                     </a>
                   </Link>
                   <Link href={"https://twitter.com/ansofhn"}>
-                    <a className="p-2 text-base text-white hover:text-white bg-gray-500/50 rounded-full">
+                    <a className="p-2 text-base text-white rounded-full hover:text-white bg-gray-500/50">
                       <FaTiktok />
                     </a>
                   </Link>
@@ -28,7 +28,7 @@ export default function Footer() {
                       "https://www.youtube.com/channel/UC81oGjTKWlhIMI4XbJcNzgA"
                     }
                   >
-                    <a className="p-2 text-base text-white hover:text-white bg-gray-500/50 rounded-full">
+                    <a className="p-2 text-base text-white rounded-full hover:text-white bg-gray-500/50">
                       <FaFacebook />
                     </a>
                   </Link>
@@ -61,7 +61,7 @@ export default function Footer() {
                   <p className="mb-2 font-sans text-sm">Help Center</p>
                   <p className="mb-2 font-sans text-sm">FAQ</p>
                 </div>
-                <div className="font-sans text-sm mr-10 py-1">
+                <div className="py-1 mr-10 font-sans text-sm">
                   Jl. Sukabirus No.88B, Citeureup, Kec. Dayeuhkolot, Bandung,
                   Jawa Barat
                 </div>

@@ -12,6 +12,7 @@ module.exports = {
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
       colors: {
         textColor: "#565656",
@@ -19,7 +20,7 @@ module.exports = {
         amber: "#FFC400",
         softblue: "#C8E8E8",
         green: "#1A555C",
-        darkgreen: "#0B2528"
+        darkgreen: "#0B2528",
       },
     },
   },
