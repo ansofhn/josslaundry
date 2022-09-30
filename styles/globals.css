@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.bgImage{
+  background-image: url('../public/assets/josLaundry.png');
+  backdrop-filter: hue-rotate(120deg);
+}
 /* html,
 body {
   padding: 0;
