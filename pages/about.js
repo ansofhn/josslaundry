@@ -3,7 +3,7 @@ import Head from "next/head";
 import HomeLayout from "../layouts/HomeLayout";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import SlideOne from '../components/aboutComponent/SlideOne';
+import About from '../components/About';
 
 export default function about() {
   return (
@@ -12,9 +12,10 @@ export default function about() {
         <title>About Us | Joss Laundry</title>
       </Head>
       <Navbar />
+      <About />
 
 
-      <SlideOne />
+
 
 
       <Footer />

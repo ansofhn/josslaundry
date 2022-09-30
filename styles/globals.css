@@ -2,7 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.swiper-button-prev,
+.swiper-button-next{
+  visibility: hidden;
+}
 
+.conten-overlay:hover .overlay-text {
+  height: 100%;
+}
 .bgImage{
   background-image: url('../public/assets/josLaundry.png');
   backdrop-filter: hue-rotate(120deg);
