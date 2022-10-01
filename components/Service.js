@@ -1,4 +1,5 @@
 import React from "react";
+import SliderCardService from "./serviceComponent/sliderCarrdServices";
 import Image from "next/image";
 import Link from "next/link";
 import Button from "./Button";
@@ -11,6 +12,10 @@ export default function Service() {
         <h3 className="p-5 mb-10 text-3xl font-bold text-center text-maroon font-poppins">
           Layanan Kami
         </h3>
+
+        <SliderCardService />
+
+
       </div>
     </div>
   );
