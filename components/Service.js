@@ -13,6 +13,7 @@ export default function Service() {
         <div className="text-3xl font-bold text-maroon">Layanan Kami</div>
       </div>
 
+
       <SliderCardService />
     </div>
   );

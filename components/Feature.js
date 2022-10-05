@@ -5,7 +5,7 @@ import { MdOutlinePriceChange, MdDeliveryDining } from "react-icons/md";
 export default function Feature() {
   return (
     <div className="container">
-      <div className="mx-auto">
+      <div className="mx-auto my-20">
         <div className="my-20 text-center ">
           <span className="text-sm font-medium text-darkgreen">
             Our Feature
@@ -33,10 +33,10 @@ export default function Feature() {
               <MdDeliveryDining className="text-5xl text-white" />
             </div>
           </div>
-          <div className="py-2 mx-auto font-medium text-darkgreen">Cuci Cepat</div>
-          <div className="py-2 mx-auto font-medium text-darkgreen">Harga Terjangkau</div>
-          <div className="py-2 mx-auto font-medium text-darkgreen">Pakaian Terjaga</div>
-          <div className="py-2 mx-auto font-medium text-darkgreen">Antar Jemput</div>
+          <div className="py-2 mx-auto text-sm font-medium text-darkgreen">Cuci Cepat</div>
+          <div className="py-2 mx-auto text-sm font-medium text-darkgreen">Harga Terjangkau</div>
+          <div className="py-2 mx-auto text-sm font-medium text-darkgreen">Pakaian Terjaga</div>
+          <div className="py-2 mx-auto text-sm font-medium text-darkgreen">Antar Jemput</div>
         </div>
       </div>
     </div>
