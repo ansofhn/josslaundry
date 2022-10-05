@@ -8,19 +8,19 @@ export default function SlideOne() {
             <div className="container">
                 <div className="grid items-center justify-center grid-cols-2 mx-5 my-24 bg-white ">
                     {/* bgImage bg-no-repeat bg-cover bg-center */}
-                    <div className=" relative">
+                    <div className="relative ">
                         <div className="absolute top-0 left-0">
 
-                            <Image src={josLaundry} className="opacity-30 rotate-12 h-auto absolute w-full" />
+                            <Image src={josLaundry} className="absolute w-full h-auto opacity-30 rotate-12" />
                         </div>
-                        <div className="p-4 mr-2 relative">
-                            <p className="font-semibold tracking-normal leading-normal text-3xl subpixel-antialiased">
+                        <div className="relative p-4 mr-2">
+                            <p className="text-3xl subpixel-antialiased font-semibold leading-normal tracking-normal">
                                 Joss Laundry memberikan
                                 pelayanan terbaik dengan
                                 didukung kinerja yang
                                 handal dan berpengalaman
                             </p>
-                            <p className="tracking-normal leading-normal text-base tracking-wide mt-3 text-gray-700 subpixel-antialiased">
+                            <p className="mt-3 text-base subpixel-antialiased leading-normal tracking-wide text-gray-700">
                                 Kami secara konsisten berupaya
                                 memberikan yang terbaik untuk
                                 kepuasan pelanggan
@@ -33,12 +33,12 @@ export default function SlideOne() {
 
                             <tbody>
                                 <tr>
-                                    <td className="w-9"><p className="text-2xl antialiased font-thin oldstyle-nums tracking-normal text-center underline align-top">1.</p></td>
-                                    <td><p className="font-medium tracking-wide text-xl subpixel-antialiased ">Harga Terjangkau</p></td>
+                                    <td className="w-9"><p className="text-2xl antialiased font-thin tracking-normal text-center underline align-top oldstyle-nums">1.</p></td>
+                                    <td><p className="text-xl subpixel-antialiased font-medium tracking-wide ">Harga Terjangkau</p></td>
                                 </tr>
                                 <tr>
                                     <td></td>
-                                    <td><p className="text-base subpixel-antialiased font-light tracking-normal leading-relaxed text-left text-slate-700">Harga yang terjangkau, mulai dari Rp6.000/kg</p></td>
+                                    <td><p className="text-base subpixel-antialiased font-light leading-relaxed tracking-normal text-left text-slate-700">Harga yang terjangkau, mulai dari Rp6.000/kg</p></td>
                                 </tr>
 
                             </tbody>
@@ -48,12 +48,12 @@ export default function SlideOne() {
 
                             <tbody>
                                 <tr>
-                                    <td className="w-9"><p className="text-2xl antialiased font-thin oldstyle-nums tracking-normal text-center underline align-top">2.</p></td>
-                                    <td><p className="font-medium tracking-wide text-xl subpixel-antialiased">Pelayanan Cepat</p></td>
+                                    <td className="w-9"><p className="text-2xl antialiased font-thin tracking-normal text-center underline align-top oldstyle-nums">2.</p></td>
+                                    <td><p className="text-xl subpixel-antialiased font-medium tracking-wide">Pelayanan Cepat</p></td>
                                 </tr>
                                 <tr>
                                     <td></td>
-                                    <td><p className="text-base subpixel-antialiased font-light tracking-normal leading-relaxed text-left text-slate-700">Pakaian siap pakai dalam waktu 2 jam</p></td>
+                                    <td><p className="text-base subpixel-antialiased font-light leading-relaxed tracking-normal text-left text-slate-700">Pakaian siap pakai dalam waktu 2 jam</p></td>
                                 </tr>
 
                             </tbody>
@@ -63,12 +63,12 @@ export default function SlideOne() {
 
                             <tbody>
                                 <tr>
-                                    <td className="w-9"><p className="text-2xl antialiased font-thin oldstyle-nums tracking-normal text-center underline align-top">3.</p></td>
-                                    <td><p className="font-medium tracking-wide text-xl subpixel-antialiased">Layanan Pick Up and Delivery</p></td>
+                                    <td className="w-9"><p className="text-2xl antialiased font-thin tracking-normal text-center underline align-top oldstyle-nums">3.</p></td>
+                                    <td><p className="text-xl subpixel-antialiased font-medium tracking-wide">Layanan Pick Up and Delivery</p></td>
                                 </tr>
                                 <tr>
                                     <td></td>
-                                    <td><p className="text-base subpixel-antialiased font-light tracking-normal leading-relaxed text-left text-slate-700">Tidak perlu datang ke tempat kami. Joss Laundry akan memjemput cucian anda, dan mengantarkannya kembali</p></td>
+                                    <td><p className="text-base subpixel-antialiased font-light leading-relaxed tracking-normal text-left text-slate-700">Tidak perlu datang ke tempat kami. Joss Laundry akan memjemput cucian anda, dan mengantarkannya kembali</p></td>
                                 </tr>
 
                             </tbody>
