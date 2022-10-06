@@ -11,15 +11,9 @@ export default function Hero() {
       <div className="w-full bg-gradient-to-tr from-orange-500 to-yellow-500">
         <div className="container">
           <div className="grid items-center justify-center grid-cols-2 mx-5 my-16">
-<<<<<<< Updated upstream
             <div className="px-20 text-white py-15">
               <h1 className="text-5xl font-bold 2xl:mr-20 ">
                 Bebaskan Indonesia Dari Jemuran
-=======
-            <div className="px-20 py-15">
-              <h1 className="text-5xl font-black text-white leading-normal font-poppins 2xl:mr-20 ">
-                Bebaskan Indonesia dari Jemuran
->>>>>>> Stashed changes
               </h1>
               <p className="my-2.5 mr-20">
                 Percayakan pada kami cucian anda bersih dan wangi dengan layanan
