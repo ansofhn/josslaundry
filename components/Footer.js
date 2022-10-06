@@ -7,9 +7,9 @@ export default function Footer() {
     <>
       <footer className="text-gray-100 text-start lg:text-left bg-darkgreen">
         <div className="container">
-          <div className="py-14 text-center md:text-left">
-            <div className="grid grid-cols-2 gap-96 mx-32">
-              <div className="mr-auto text-sm text-center">
+          <div className="text-center py-14 md:text-left">
+            <div className="grid grid-cols-2 mx-24 gap-80">
+              <div className="my-auto mr-auto text-sm text-center">
                 <p className="mb-2">Copyright @ 2022</p>
                 <p>All rights reserved</p>
                 <div className="grid grid-cols-3 gap-2 mt-5">
@@ -36,7 +36,7 @@ export default function Footer() {
               </div>
               <div className="grid grid-cols-2">
                 <div>
-                  <h3 className="mb-1 text-base font-bold text-gray-100">
+                  <h3 className="my-1 text-base font-bold text-gray-100">
                     Company
                   </h3>
                   <div className="mb-1">
@@ -50,7 +50,7 @@ export default function Footer() {
                     </Link>
                   </div>
                 </div>
-                <div className="text-sm leading-7">
+                <div className="text-sm leading-7 ">
                   Jl. Sukabirus No.88B, <br />
                   Citeureup, Kec. Dayeuhkolot, <br />
                   Kabupaten Bandung, <br />
