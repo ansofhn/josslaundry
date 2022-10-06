@@ -31,7 +31,7 @@ export default function Hero() {
                 </Button>
               </Link>
             </div>
-            <div className="mx-auto my-28">
+            <div className="mx-auto my-20">
               <Image src={Banner} />
             </div>
           </div>
