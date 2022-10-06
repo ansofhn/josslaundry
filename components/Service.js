@@ -1,9 +1,6 @@
 import React from "react";
 import SliderCardService from "./serviceComponent/sliderCarrdServices";
 import Image from "next/image";
-import Link from "next/link";
-import Button from "./Button";
-import { MdNavigateNext } from "react-icons/md";
 import { BsCheckCircle } from "react-icons/bs";
 import express from "../public/assets/express.png";
 import reguler from "../public/assets/reguler.png";
