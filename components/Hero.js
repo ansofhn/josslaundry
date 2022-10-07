@@ -10,14 +10,13 @@ export default function Hero() {
     <>
       <div className="w-full bg-gradient-to-tr from-orange-500 to-yellow-500">
         <div className="container">
-          <div className="grid items-center justify-center grid-cols-2 mx-5 my-16">
+          <div className="grid items-center justify-center grid-cols-2 mx-5 my-8">
             <div className="px-20 text-white py-15">
               <h1 className="text-5xl font-bold 2xl:mr-20 ">
                 Bebaskan Indonesia Dari Jemuran
               </h1>
               <p className="my-2.5 mr-20">
-                Percayakan pada kami cucian anda bersih dan wangi dengan layanan
-                yang lengkap.
+                Cucian anda bersih dan wangi dengan layanan yang terbaik.
               </p>
 
               <Link href={"#"}>
@@ -31,7 +30,7 @@ export default function Hero() {
                 </Button>
               </Link>
             </div>
-            <div className="mx-auto my-20">
+            <div className="mx-auto my-16 w-4/5">
               <Image src={Banner} />
             </div>
           </div>
