@@ -1,55 +1,55 @@
 import React from "react";
 import SliderCardService from "./serviceComponent/sliderCarrdServices";
 import Image from "next/image";
-import { BsCheckCircle } from "react-icons/bs";
-import express from "../public/assets/express.png";
-import reguler from "../public/assets/reguler.png";
+import { FaCheckCircle } from "react-icons/fa";
+import express from "../public/assets/express_v2.png";
+import reguler from "../public/assets/reguler_v2.png";
 
 export default function Service() {
   return (
-    <div className="container">
-      <div className="grid grid-cols-2 mx-40 my-20">
+    <div className="container"> 
+      <div className="grid grid-cols-2 mx-40 my-40">
         <div className="flex items-center justify-start">
           <Image src={express} />
         </div>
         <div className="my-auto">
-          <h3 className="text-2xl font-semibold text-darkgreen">Express</h3>
-          <p className="my-3 mr-48">
+          <div className="text-3xl font-semibold text-darkgreen">Express</div>
+          <div className="my-3 mr-48 font-light">
             Kami menyediakan laundry express cuci cepat hanya dalam 2 jam
-          </p>
-          <span className="flex items-center justify-start gap-2">
-            <BsCheckCircle /> Cuci{" "}
+          </div>
+          <span className="flex items-center justify-start gap-4 font-medium">
+            <FaCheckCircle className="text-maroon"/> Cuci{" "}
           </span>
-          <span className="flex items-center justify-start gap-2">
-            <BsCheckCircle /> Kering{" "}
+          <span className="flex items-center justify-start gap-4 font-medium">
+            <FaCheckCircle className="text-maroon"/> Kering{" "}
           </span>
-          <span className="flex items-center justify-start gap-2">
-            <BsCheckCircle /> Setrika{" "}
+          <span className="flex items-center justify-start gap-4 font-medium">
+            <FaCheckCircle className="text-maroon"/> Setrika{" "}
           </span>
-          <span className="flex items-center justify-start gap-2">
-            <BsCheckCircle /> Lipat{" "}
+          <span className="flex items-center justify-start gap-4 font-medium">
+            <FaCheckCircle className="text-maroon"/> Lipat{" "}
           </span>
         </div>
       </div>
-      <div className="grid grid-cols-2 mx-40 my-20">
+      <div className="grid grid-cols-2 mx-40 my-40">
         <div className="my-auto text-right">
-          <h3 className="text-2xl font-semibold text-darkgreen">Reguler</h3>
-          <p className="my-3">Cucian banyak tetap hemat</p>
-          <span className="flex items-center justify-end gap-2">
-            Cuci <BsCheckCircle />
+          <div className="text-3xl font-semibold text-darkgreen">Reguler</div>
+          <div className="my-3 font-light text-darkgreen">Cucian banyak tetap hemat</div>
+          <span className="flex items-center justify-end gap-4 font-medium">
+            Cuci <FaCheckCircle className="text-maroon"/>
           </span>
-          <span className="flex items-center justify-end gap-2">
-            Kering <BsCheckCircle />
+          <span className="flex items-center justify-end gap-4 font-medium">
+            Kering <FaCheckCircle className="text-maroon"/>
           </span>
-          <span className="flex items-center justify-end gap-2">
-            Setrika <BsCheckCircle />
+          <span className="flex items-center justify-end gap-4 font-medium">
+            Setrika <FaCheckCircle className="text-maroon"/>
           </span>
-          <span className="flex items-center justify-end gap-2">
-            Lipat <BsCheckCircle />
+          <span className="flex items-center justify-end gap-4 font-medium">
+            Lipat <FaCheckCircle className="text-maroon"/>
           </span>
         </div>
         <div className="flex items-center justify-end">
-          <Image src={reguler} />
+          <Image src={reguler}/>
         </div>
       </div>
       <div className="mt-32 text-center">

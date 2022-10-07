@@ -5,8 +5,8 @@ import { MdOutlinePriceChange, MdDeliveryDining } from "react-icons/md";
 export default function Feature() {
   return (
     <div className="container">
-      <div className="mx-auto my-20">
-        <div className="mb-20 text-center ">
+      <div className="mx-auto my-16">
+        <div className="text-center  mb-14">
           <span className="text-sm font-medium text-darkgreen">
             Our Feature
           </span>

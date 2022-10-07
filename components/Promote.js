@@ -9,7 +9,7 @@ export default function Promote() {
     <div className="container">
       <div className="px-10 py-6 mx-10 my-20 bg-softblue rounded-2xl">
         <div className="grid grid-cols-2">
-          <div className="mx-10 my-auto">
+          <div className="mx-10 my-auto text-darkgreen">
             <h3 className="mr-10 text-3xl font-semibold">
               Anda malas mencuci ? Silakan ke Joss Laundry
             </h3>
