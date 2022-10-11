@@ -25,6 +25,7 @@ module.exports = {
         heroend: "#43757a",
         middle: "#3c6f75"
       },
+
     },
   },
   plugins: [],

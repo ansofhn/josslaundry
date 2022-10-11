@@ -1,22 +1,36 @@
 import React from "react";
 import Image from "next/image";
 import Banner from "../public/assets/logo-banner.png";
+import Button from "./Button";
+import { BiRightArrowAlt } from "react-icons/bi";
+import Link from "next/link";
 
 export default function Hero() {
   return (
     <>
-      <div className="w-full bg-white">
+      <div className="w-full bg-gradient-to-tr from-orange-500 to-yellow-500">
         <div className="container">
-          <div className="grid items-center justify-center grid-cols-2 mx-5 my-24 bg-white">
-            <div className="px-20 py-20">
-              <h1 className="text-5xl font-bold font-poppins text-darkgreen 2xl:mr-20">
+          <div className="grid items-center justify-center grid-cols-2 mx-5 my-8">
+            <div className="px-20 text-white py-15">
+              <h1 className="text-5xl font-bold 2xl:mr-20 ">
                 Bebaskan Indonesia Dari Jemuran
               </h1>
-              <p className="mt-4 mb-6 text-lg leading-relaxed font-poppins text-darkgreen 2xl:mr-28">
-                Percayakan pada kami, cucian anda bersih dan wangi.
+              <p className="my-2.5 mr-20">
+                Cucian anda bersih dan wangi dengan layanan yang terbaik.
               </p>
+
+              <Link href={"#"}>
+                <Button
+                  className={
+                    "flex items-center gap-2 transition duration-300 text-sm font-bold px-6 py-2.5 mt-6 rounded-lg bg-maroon text-white"
+                  }
+                >
+                  Contact Us
+                  <BiRightArrowAlt className="text-lg font-bold"/>
+                </Button>
+              </Link>
             </div>
-            <div className="mx-auto">
+            <div className="mx-auto my-16 w-4/5">
               <Image src={Banner} />
             </div>
           </div>
