@@ -21,6 +21,9 @@ module.exports = {
         softblue: "#C8E8E8",
         green: "#1A555C",
         darkgreen: "#0B2528",
+        nileblue: "#1A555C",
+        heroend: "#43757a",
+        middle: "#3c6f75"
       },
     },
   },
