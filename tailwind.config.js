@@ -23,7 +23,8 @@ module.exports = {
         darkgreen: "#0B2528",
         nileblue: "#1A555C",
         heroend: "#43757a",
-        middle: "#3c6f75"
+        middle: "#3c6f75", 
+        yellowButton: "#FFC400"
       },
 
     },
