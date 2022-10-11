@@ -1,19 +1,19 @@
-import Head from "next/head";
+// import Head from "next/head";
 import React from "react";
-import { MdEmail } from "react-icons/md";
-import { HiLocationMarker } from "react-icons/hi";
-import { AiOutlineWhatsApp } from "react-icons/ai";
-import Button from "../components/Button";
-import Footer from "../components/Footer";
-import Input from "../components/Input";
-import Label from "../components/Label";
-import Navbar from "../components/Navbar";
+// import { MdEmail } from "react-icons/md";
+// import { HiLocationMarker } from "react-icons/hi";
+// import { AiOutlineWhatsApp } from "react-icons/ai";
+// import Button from "../components/Button";
+// import Footer from "../components/Footer";
+// import Input from "../components/Input";
+// import Label from "../components/Label";
+// import Navbar from "../components/Navbar";
 
 export default function contact() {
   return (
     <>
-      <Head>
-        <title>Joss Laundry</title>
+      {/* <Head>
+        <title>Contact Us</title>
       </Head>
       <Navbar />
       <div className="w-full bg-white">
@@ -94,7 +94,7 @@ export default function contact() {
           </form>
         </div>
       </div>
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
