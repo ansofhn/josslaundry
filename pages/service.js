@@ -1,17 +1,6 @@
-<<<<<<< Updated upstream
-import React from "react";
-import HomeLayout from "../layouts/HomeLayout";
-
-export default function service() {
-  return (
-    <div>
-
-    </div>
-  )}
-=======
 import React from 'react'
 import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import Navbar_v2 from '../components/Navbar_v2'
 import HouseCare from '../components/Service/HouseCare'
 import ServiceHero from '../components/Service/ServiceHero'
 import HomeLayout from '../layouts/HomeLayout.js'
@@ -20,7 +9,7 @@ import BabyCare from '../components/Service/BabyCare'
 export default function service() {
   return (
     <>
-      <Navbar />
+      <Navbar_v2 />
       <ServiceHero />
       <HouseCare />
       <BabyCare />
@@ -28,5 +17,4 @@ export default function service() {
     </>
   )
 }
->>>>>>> Stashed changes
 service.getLayout = (page) => <HomeLayout children={page} />;
