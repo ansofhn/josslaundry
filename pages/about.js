@@ -4,6 +4,7 @@ import HomeLayout from "../layouts/HomeLayout";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
+import Navbar_v2 from "../components/Navbar_v2";
 
 export default function about() {
   return (
@@ -11,7 +12,7 @@ export default function about() {
       <Head>
         <title>About Us | Joss Laundry</title>
       </Head>
-      <Navbar />
+      <Navbar_v2 />
       <div className="w-full bg-white">
         <div className="container">
           <div className="grid grid-cols-2 gap-4 p-2 mx-20 my-32 bg-white">
