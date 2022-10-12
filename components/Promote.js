@@ -18,13 +18,16 @@ export default function Promote() {
       <div className="px-10 py-6 mx-10 my-10 bg-softblue rounded-2xl">
         <div className="grid grid-cols-2">
           <div className="my-auto text-darkgreen ml-10 leading-9">
-            <h3 className="text-3xl font-semibold ">
-              Tidak ada waktu untuk ke JOSS LAUNDRY?<br />
+            <h3 className="text-2xl 2xl:text-3xl font-bold ">
+              Tidak ada waktu untuk ke JOSS LAUNDRY?
             </h3>
-            <h3 className="text-3xl font-semibold ">
-              <span className="font-bold text-maroon">Pick Up and Delivery</span> aja!
+            <h3 className="text-2xl 2xl:text-3xl font-bold ">
+              <span className="font-bold text-maroon">
+                Pick Up and Delivery
+              </span>{" "}
+              aja!
             </h3>
-            <pre>Cucian kelar tanpa harus keluar</pre>
+            <p>Cucian kelar tanpa harus keluar</p>
             <Link href={"https://wa.link/a0gqrg"}>
               <Button
                 className={
@@ -35,29 +38,39 @@ export default function Promote() {
               </Button>
             </Link>
           </div>
-          <div className="ml-28 pl-2">
-            <Image src={illustration} width={500} height={371} />
+          <div className="xl:ml-40 xl:mr-10 2xl:ml-48 mt-4 pl-2">
+            <Image src={illustration} width={430} height={300} />
           </div>
-          <div className="flex items-center text-center justify-between col-span-2 gap-24 mx-10 mb-10">
+          <div className="flex items-center text-center justify-between col-span-2 xl:gap-14 2xl:gap-24 mx-10 mb-10">
             <div className="mx-auto my-auto">
-              <Image src={step1}/>
-              <div>Siapkan pakaian kotor</div>
+              <div className="mx-10 2xl:mx-8">
+                <Image src={step1} />
+              </div>
+              <div className="text-sm font-medium">Siapkan pakaian kotor</div>
             </div>
             <div className="mx-auto my-auto">
-              <Image src={step2} />
-              <div>Hubungi kami</div>
+              <div className="mx-10 2xl:mx-8">
+                <Image src={step2} />
+              </div>
+              <div className="text-sm font-medium">Hubungi kami</div>
             </div>
             <div className="mx-auto my-auto">
-              <Image src={step3} />
-              <div>Pakaian siap jemput</div>
+              <div className="mx-10 2xl:mx-8">
+                <Image src={step3} />
+              </div>
+              <div className="text-sm font-medium">Pakaian siap jemput</div>
             </div>
             <div className="mx-auto my-auto">
-              <Image src={step4} />
-              <div>Pakaian diproses</div>
+              <div className="mx-10 2xl:mx-8">
+                <Image src={step4} />
+              </div>
+              <div className="text-sm font-medium">Pakaian diproses</div>
             </div>
             <div className="mx-auto my-auto">
-              <Image src={step5} />
-              <div>Pakaian siap antar</div>
+              <div className="mx-10 2xl:mx-8">
+                <Image src={step5} />
+              </div>
+              <div className="text-sm font-medium">Pakaian siap antar</div>
             </div>
           </div>
         </div>

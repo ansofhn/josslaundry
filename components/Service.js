@@ -11,7 +11,7 @@ import Button from "./Button";
 export default function Service() {
   return (
     <div className="container">
-      <div className="text-3xl font-bold text-center text-maroon">Layanan Kami</div>
+      <div className="text-3xl font-bold text-center mb-14 text-maroon">Layanan Kami</div>
       <div className="grid grid-cols-3 mx-40 h-72">
         <div className="flex items-center justify-start">
           <Image src={express} />
