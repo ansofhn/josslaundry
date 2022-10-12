@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import About from "../components/About";
 import Navbar_v2 from "../components/Navbar_v2";
 import About_v2 from "../components/About_v2";
+import Footer_v2 from "../components/Footer_v2";
 
 export default function about() {
   return (
@@ -16,7 +17,7 @@ export default function about() {
       <Navbar_v2 />
       <About />
       <About_v2 />
-      <Footer />
+      <Footer_v2 />
     </>
   );
 }

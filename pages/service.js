@@ -5,6 +5,7 @@ import HouseCare from '../components/Service/HouseCare'
 import ServiceHero from '../components/Service/ServiceHero'
 import HomeLayout from '../layouts/HomeLayout.js'
 import BabyCare from '../components/Service/BabyCare'
+import Footer_v2 from '../components/Footer_v2'
 
 export default function service() {
   return (
@@ -13,7 +14,7 @@ export default function service() {
       <ServiceHero />
       <HouseCare />
       <BabyCare />
-      <Footer />
+      <Footer_v2 />
     </>
   )
 }
