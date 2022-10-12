@@ -9,11 +9,7 @@ import Navbar_v2 from "../components/Navbar_v2";
 import Promote from "../components/Promote";
 import Service from "../components/Service";
 import HomeLayout from "../layouts/HomeLayout";
-<<<<<<< Updated upstream
 import ScrollToTop from "../components/ScrollToTop";
-=======
-import ScrollToTop from "../components/ScrollToTop"
->>>>>>> Stashed changes
 
 export default function Home() {
   return (
@@ -27,12 +23,8 @@ export default function Home() {
       <Service />
       <Promote />
       <ScrollToTop />
-<<<<<<< Updated upstream
       <Footer_v2 />
-=======
-
       <Footer />
->>>>>>> Stashed changes
     </>
   );
 }
