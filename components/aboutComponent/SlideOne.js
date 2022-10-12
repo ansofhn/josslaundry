@@ -11,7 +11,7 @@ export default function SlideOne() {
                     <div className="relative ">
                         <div className="absolute top-0 left-0">
 
-                            <Image src={josLaundry} className="absolute w-full h-auto opacity-30 rotate-12" />
+                            <Image src={josLaundry} width="500" height="350" className="absolute h-auto opacity-30 rotate-12 bottom-24" />
                         </div>
                         <div className="relative p-4 mr-2">
                             <p className="text-3xl subpixel-antialiased font-semibold leading-normal tracking-normal">

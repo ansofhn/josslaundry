@@ -1,5 +1,7 @@
 import React from "react";
 import SlideOne from "./aboutComponent/SlideOne";
+import SlideTwo from "./aboutComponent/SlideTwo";
+import SlideThree from "./aboutComponent/SlideThree";
 
 export default function About() {
     return (
@@ -8,9 +10,11 @@ export default function About() {
 
 
                 <SlideOne />
+                <SlideTwo />
 
 
             </div>
+            <SlideThree />
         </div>
     );
 }
