@@ -11,14 +11,9 @@ import Button from "./Button";
 export default function Service() {
   return (
     <div className="container">
-<<<<<<< Updated upstream
       <div className="text-3xl font-bold text-center text-maroon">Layanan Kami</div>
       <div className="grid grid-cols-3 mx-40 h-72">
         <div className="flex items-center justify-start">
-=======
-      <div className="grid grid-cols-2 mx-40 mt-40 ">
-        <div className="flex items-start justify-start">
->>>>>>> Stashed changes
           <Image src={express} />
         </div>
         <div className="mt-20 col-span-2">
@@ -26,7 +21,6 @@ export default function Service() {
           <div className="font-light">
             Cucian bersih hanya dalam 2 jam
           </div>
-<<<<<<< Updated upstream
           <span className="flex items-center justify-start gap-2 font-medium">
             <FaCheckCircle className="text-maroon ml-4" /> Cuci{" "}
           </span>
@@ -67,53 +61,12 @@ export default function Service() {
       <div className="grid grid-cols-3 mx-40 h-72">
         <div className="flex items-center justify-start">
           <Image src={reguler} />
-=======
-          <span className="flex items-center justify-start gap-4 font-medium">
-            <FaCheckCircle className="text-maroon" /> Cuci{" "}
-          </span>
-          <span className="flex items-center justify-start gap-4 font-medium">
-            <FaCheckCircle className="text-maroon" /> Kering{" "}
-          </span>
-          <span className="flex items-center justify-start gap-4 font-medium">
-            <FaCheckCircle className="text-maroon" /> Setrika{" "}
-          </span>
-          <span className="flex items-center justify-start gap-4 font-medium">
-            <FaCheckCircle className="text-maroon" /> Lipat{" "}
-          </span>
-        </div>
-      </div>
-      <div className="grid grid-cols-2 mx-40 my-5">
-        <div className="my-auto text-right">
-          <div className="text-3xl font-semibold text-darkgreen">Reguler</div>
-          <div className="my-3 font-light text-darkgreen">Cucian banyak tetap hemat</div>
-          <span className="flex items-center justify-end gap-4 font-medium">
-            Cuci <FaCheckCircle className="text-maroon" />
-          </span>
-          <span className="flex items-center justify-end gap-4 font-medium">
-            Kering <FaCheckCircle className="text-maroon" />
-          </span>
-          <span className="flex items-center justify-end gap-4 font-medium">
-            Setrika <FaCheckCircle className="text-maroon" />
-          </span>
-          <span className="flex items-center justify-end gap-4 font-medium">
-            Lipat <FaCheckCircle className="text-maroon" />
-          </span>
-        </div>
-        <div className="flex items-end justify-end">
-          <Image src={reguler} />
-        </div>
-      </div>
-      <div className="grid grid-cols-2 mx-40 mb-40">
-        <div className="flex items-start justify-start">
-          <Image src={istimewa} />
->>>>>>> Stashed changes
         </div>
         <div className="mt-20 col-span-2">
           <div className="text-3xl font-semibold text-darkgreen">Reguler</div>
           <div className="font-light">
             Cucian banyak tetap hemat
           </div>
-<<<<<<< Updated upstream
           <span className="flex items-center justify-start gap-2 font-medium">
             <FaCheckCircle className="text-maroon ml-4" /> Cuci{" "}
           </span>
@@ -125,19 +78,6 @@ export default function Service() {
           </span>
           <span className="flex items-center justify-start gap-2 font-medium">
             <FaCheckCircle className="text-maroon ml-4" /> Lipat{" "}
-=======
-          <span className="flex items-center justify-start gap-4 font-medium">
-            <FaCheckCircle className="text-maroon" /> Cuci{" "}
-          </span>
-          <span className="flex items-center justify-start gap-4 font-medium">
-            <FaCheckCircle className="text-maroon" /> Kering{" "}
-          </span>
-          <span className="flex items-center justify-start gap-4 font-medium">
-            <FaCheckCircle className="text-maroon" /> Setrika{" "}
-          </span>
-          <span className="flex items-center justify-start gap-4 font-medium">
-            <FaCheckCircle className="text-maroon" /> Lipat{" "}
->>>>>>> Stashed changes
           </span>
         </div>
       </div>
