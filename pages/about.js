@@ -14,8 +14,8 @@ export default function about() {
         <title>About Us | Joss Laundry</title>
       </Head>
       <Navbar_v2 />
-      <About_v2 />
       <About />
+      <About_v2 />
       <Footer />
     </>
   );
