@@ -13,13 +13,13 @@ export default function Navbar() {
         <div className="container">
           <div className="flex items-center justify-between">
             <Link href={"/"}>
-              <div className="flex items-center py-2 gap-x-2 cursor-pointer">
+              <div className="flex items-center py-2 cursor-pointer gap-x-2">
                 <Image src={Logo} />
               </div>
             </Link>
 
             <div className="flex items-center justify-between gap-20">
-              <div className="flex items-center gap-x-2 text-sm">
+              <div className="flex items-center text-sm gap-x-2">
                 <NavLink url={"/"}>Home</NavLink>
                 <NavLink url={"/about"}>About</NavLink>
                 <NavLink url={"/service"}>Service</NavLink>

@@ -12,10 +12,10 @@ export default function Hero() {
         <div className="container">
           <div className="grid items-center justify-center grid-cols-2 mx-5 my-8">
             <div className="px-20 text-white py-15">
-              <h1 className="text-5xl font-bold 2xl:mr-20 ">
+              <h1 className="text-6xl font-bold 2xl:mr-20 ">
                 Bebaskan Indonesia Dari Jemuran
               </h1>
-              <p className="my-2.5 mr-20">
+              {/* <p className="my-2.5 mr-20">
                 Cucian anda bersih dan wangi dengan layanan yang terbaik.
               </p>
 
@@ -28,9 +28,9 @@ export default function Hero() {
                   Contact Us
                   <BiRightArrowAlt className="text-lg font-bold"/>
                 </Button>
-              </Link>
+              </Link> */}
             </div>
-            <div className="mx-auto my-16 w-4/5">
+            <div className="w-4/5 mx-auto my-16">
               <Image src={Banner} />
             </div>
           </div>

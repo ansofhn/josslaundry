@@ -22,7 +22,7 @@ const Navbar_v2 = () => {
                 type="button"
                 className="px-10 py-2 text-sm font-bold transition duration-300 rounded-lg cursor-pointer bg-amber text-maroon"
               >
-                Contact Us
+                Hubungi Kami
               </button>
             </Link>
             <button
