@@ -12,7 +12,7 @@ function About_v2() {
               berpengalaman
             </p>
           </div>
-          <div className="col-start-1 p-8 rounded-lg bg-softblue/50 pb-96">
+          <div className="col-start-1 p-8 rounded-xl bg-softblue/50 pb-96">
             <h3 className="mb-2 text-xl font-bold text-darkgreen">
               What we do
             </h3>
@@ -25,7 +25,7 @@ function About_v2() {
               kepuasan pelanggan.
             </p>
           </div>
-          <div className="p-8 rounded-lg bg-amber/50">
+          <div className="p-8 rounded-xl bg-amber/50">
             <h3 className="mb-2 text-xl font-bold text-darkgreen">
               What we serve
             </h3>
@@ -44,7 +44,7 @@ function About_v2() {
               Laundry akan memjemput cucian anda, dan mengantarkannya kembali.
             </p>
           </div>
-          <div className="p-8 bg-red-200 rounded-lg">
+          <div className="p-8 bg-red-200 rounded-xl">
             <h3 className="mb-2 text-xl font-bold text-darkgreen">
               Our history
             </h3>
@@ -55,7 +55,7 @@ function About_v2() {
             </p>
             <p>Bebaskan Indonesi Dari Jemuran</p>
           </div>
-          <div className="p-8 bg-gray-100 rounded-lg">
+          <div className="p-8 bg-gray-100 rounded-xl">
             <h3 className="mb-2 text-xl font-bold text-darkgreen">
               Our location
             </h3>
@@ -76,7 +76,7 @@ function About_v2() {
               suscipit turpis et commodo facilisis.
             </p>
           </div>
-          <div className="p-0 mx-4 bg-gray-100 rounded-lg h-96">
+          <div className="p-0 mx-4 overflow-hidden bg-gray-100 rounded-xl h-96">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4445.270247133536!2d107.62989138807049!3d-6.975611913313627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9afd1042fb9%3A0x55a75d1cbb090090!2sJoss%20Laundry%20Telkom%20University!5e0!3m2!1sen!2sid!4v1665541999178!5m2!1sen!2sid"
               height="500"
