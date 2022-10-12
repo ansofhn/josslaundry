@@ -81,7 +81,7 @@ export default function Service() {
           </span>
         </div>
       </div>
-      <div className="flex items-center justify-between px-10 py-6 mx-10 mt-28 mb-20 px-20 text-2xl font-semibold text-darkgreen bg-softblue rounded-2xl">
+      <div className="flex items-center justify-between py-6 mx-10 mt-28 mb-20 px-20 text-2xl font-semibold text-darkgreen bg-softblue rounded-2xl">
         Dan berbagai layanan terbaik yang kami miliki
         <Link href={"/service"}>
           <Button
