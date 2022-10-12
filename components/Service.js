@@ -36,7 +36,7 @@ export default function Service() {
         </div>
       </div>
       <div className="grid grid-cols-3 mx-40 h-72">
-        <div className="mt-20 text-right col-span-2"> 
+        <div className="mt-20 text-right col-span-2">
           <div className="text-3xl font-semibold text-darkgreen">Istimewa</div>
           <div className="font-light">
             Cucian selesai dalam 12 jam
@@ -96,3 +96,4 @@ export default function Service() {
     </div>
   );
 }
+

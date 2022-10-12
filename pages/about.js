@@ -7,6 +7,8 @@ import About from "../components/About";
 import Navbar_v2 from "../components/Navbar_v2";
 import About_v2 from "../components/About_v2";
 import Footer_v2 from "../components/Footer_v2";
+import ScrollToTop from "../components/ScrollToTop";
+
 
 export default function about() {
   return (
@@ -17,6 +19,7 @@ export default function about() {
       <Navbar_v2 />
       <About />
       <About_v2 />
+      <ScrollToTop />
       <Footer_v2 />
     </>
   );

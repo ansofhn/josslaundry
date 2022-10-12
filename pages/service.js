@@ -6,6 +6,8 @@ import ServiceHero from '../components/Service/ServiceHero'
 import HomeLayout from '../layouts/HomeLayout.js'
 import BabyCare from '../components/Service/BabyCare'
 import Footer_v2 from '../components/Footer_v2'
+import ScrollToTop from "../components/ScrollToTop";
+
 
 export default function service() {
   return (
@@ -14,6 +16,8 @@ export default function service() {
       <ServiceHero />
       <HouseCare />
       <BabyCare />
+      <ScrollToTop />
+
       <Footer_v2 />
     </>
   )

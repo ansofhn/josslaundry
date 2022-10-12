@@ -9,6 +9,7 @@ import Navbar_v2 from "../components/Navbar_v2";
 import Promote from "../components/Promote";
 import Service from "../components/Service";
 import HomeLayout from "../layouts/HomeLayout";
+import ScrollToTop from "../components/ScrollToTop";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Feature />
       <Service />
       <Promote />
+      <ScrollToTop />
       <Footer_v2 />
     </>
   );
