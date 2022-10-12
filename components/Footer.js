@@ -45,7 +45,7 @@ export default function Footer() {
                     </Link>
                   </div>
                   <div className="mb-1">
-                    <Link href={"/contact"}>
+                    <Link href={"https://wa.link/a0gqrg"}>
                       <a className="font-sans text-sm hover:text-white">Contact Us</a>
                     </Link>
                   </div>

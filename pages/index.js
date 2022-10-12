@@ -21,8 +21,6 @@ export default function Home() {
       <Feature />
       <Service />
       <Promote />
-      <Footer />
-      <div className="my-10"></div>
       <Footer_v2 />
     </>
   );

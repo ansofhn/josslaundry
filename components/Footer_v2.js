@@ -9,13 +9,12 @@ function Footer_v2() {
     <>
       <footer className="text-gray-100 text-start lg:text-left bg-darkgreen">
         <div className="container">
-          <div className="text-center py-14 md:text-left">
+          <div className="text-center py-10 md:text-left">
             <div className="grid grid-cols-2 mx-24 gap-80">
               <div className="mr-auto">
                 <div className="-mt-2">
                   <Image src={footerLogo} />
                 </div>
-
                 <div className="grid grid-cols-3 mx-7">
                   <Link
                     href={"https://www.instagram.com/josslaundry_telkomuniv/"}
@@ -53,7 +52,7 @@ function Footer_v2() {
                     </Link>
                   </div>
                   <div className="mb-1">
-                    <Link href={"/contact"}>
+                    <Link href={"https://wa.link/a0gqrg"}>
                       <a className="font-sans text-sm hover:text-white">
                         Contact Us
                       </a>

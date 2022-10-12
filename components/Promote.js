@@ -12,17 +12,20 @@ import Button from "./Button";
 export default function Promote() {
   return (
     <div className="container">
-      <div className="mt-20 text-3xl font-bold text-center text-maroon">
-        Pick up and Delivery
+      <div className="text-3xl font-bold text-center text-maroon">
+        Pick Up and Delivery
       </div>
       <div className="px-10 py-6 mx-10 my-10 bg-softblue rounded-2xl">
         <div className="grid grid-cols-2">
-          <div className="mx-10 my-auto text-darkgreen">
-            <h3 className="mr-10 text-3xl font-semibold">
-              Anda malas mencuci ? Silakan ke Joss Laundry
+          <div className="my-auto text-darkgreen ml-10 leading-9">
+            <h3 className="text-3xl font-semibold ">
+              Tidak ada waktu untuk ke JOSS LAUNDRY?<br />
             </h3>
-            Cepat, rapi, wangi, dan banyak promosi
-            <Link href={"#"}>
+            <h3 className="text-3xl font-semibold ">
+              <span className="font-bold text-maroon">Pick Up and Delivery</span> aja!
+            </h3>
+            <pre>Cucian kelar tanpa harus keluar</pre>
+            <Link href={"https://wa.link/a0gqrg"}>
               <Button
                 className={
                   "flex items-center gap-2 transition duration-300 text-sm font-bold px-8 py-2.5 mt-6 rounded-lg bg-amber text-maroon"
@@ -32,12 +35,12 @@ export default function Promote() {
               </Button>
             </Link>
           </div>
-          <div className="mx-auto">
-            <Image src={illustration} width={350} height={320} />
+          <div className="ml-28 pl-2">
+            <Image src={illustration} width={500} height={371} />
           </div>
-          <div className="flex items-center justify-between col-span-2 mx-10 my-10">
+          <div className="flex items-center text-center justify-between col-span-2 gap-24 mx-10 mb-10">
             <div className="mx-auto my-auto">
-              <Image src={step1} />
+              <Image src={step1}/>
               <div>Siapkan pakaian kotor</div>
             </div>
             <div className="mx-auto my-auto">

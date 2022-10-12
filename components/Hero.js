@@ -15,20 +15,19 @@ export default function Hero() {
               <h1 className="text-6xl font-bold 2xl:mr-20 ">
                 Bebaskan Indonesia Dari Jemuran
               </h1>
-              {/* <p className="my-2.5 mr-20">
+              <p className="my-2.5 mr-20">
                 Cucian anda bersih dan wangi dengan layanan yang terbaik.
               </p>
-
-              <Link href={"#"}>
+              <Link href={"https://wa.link/a0gqrg"}>
                 <Button
                   className={
                     "flex items-center gap-2 transition duration-300 text-sm font-bold px-6 py-2.5 mt-6 rounded-lg bg-maroon text-white"
                   }
                 >
-                  Contact Us
+                  Hubungi Kami
                   <BiRightArrowAlt className="text-lg font-bold"/>
                 </Button>
-              </Link> */}
+              </Link>
             </div>
             <div className="w-4/5 mx-auto my-16">
               <Image src={Banner} />

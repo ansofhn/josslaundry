@@ -17,7 +17,7 @@ const Navbar_v2 = () => {
             </div>
           </Link>
           <div className="flex md:order-2">
-            <Link href={"/contact"}>
+            <Link href={"https://wa.link/a0gqrg"}>
               <button
                 type="button"
                 className="px-10 py-2 text-sm font-bold transition duration-300 rounded-lg cursor-pointer bg-amber text-maroon"
