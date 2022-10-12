@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import About from "../components/About";
 import Navbar_v2 from "../components/Navbar_v2";
+import About_v2 from "../components/About_v2";
 
 export default function about() {
   return (
@@ -13,7 +14,7 @@ export default function about() {
         <title>About Us | Joss Laundry</title>
       </Head>
       <Navbar_v2 />
-
+      <About_v2 />
       <About />
       <Footer />
     </>
