@@ -7,6 +7,7 @@ import HomeLayout from '../layouts/HomeLayout.js'
 import BabyCare from '../components/Service/BabyCare'
 import Footer_v2 from '../components/Footer_v2'
 import ScrollToTop from "../components/ScrollToTop";
+import Pricing from "../components/Pricing"
 
 
 export default function service() {
@@ -16,6 +17,7 @@ export default function service() {
       <ServiceHero />
       <HouseCare />
       <BabyCare />
+      <Pricing />
       <ScrollToTop />
 
       <Footer_v2 />
