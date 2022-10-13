@@ -8,9 +8,9 @@ function Footer_v2() {
   return (
     <>
       <footer className="text-gray-100 text-start lg:text-left bg-darkgreen">
-        <div className="container">
-          <div className="text-center pb-10 pt-16 md:text-left">
-            <div className="grid grid-cols-2 mx-24 gap-80">
+        <div className="container p-0">
+          <div className="text-center py-8 md:text-left">
+            <div className="grid grid-cols-2 ml-16 gap-96">
               <div className="mr-auto">
                 <div className="-mt-2">
                   <Image src={footerLogo} />
@@ -49,7 +49,7 @@ function Footer_v2() {
                 </div>
               </div>
               <div className="grid grid-cols-2">
-                <div>
+                <div className="pt-6">
                   <h3 className="my-1 text-sm font-semibold text-gray-100">
                     Tentang Kami
                   </h3>
@@ -71,15 +71,12 @@ function Footer_v2() {
                     </Link>
                   </div>
                 </div>
-                <div className="text-sm font-sans leading-7 ">
-                  <h3 className="my-1 text-sm font-semibold font-poppins text-gray-100">
-                    Alamat Kami
-                  </h3>
-                  Jl. Sukabirus No.88B, <br />
-                  Citeureup, Kec. Dayeuhkolot, <br />
-                  Kabupaten Bandung, <br />
-                  Jawa Barat 40267
-                </div>
+                <div className="text-sm font-sans mb-1 pt-6">
+                  <div className="mb-1">Jl. Sukabirus No.88B,</div>
+                  <div className="mb-1">Citeureup, Kec. Dayeuhkolot,</div>
+                  <div className="mb-1">Kabupaten Bandung,</div>
+                  <div className="mb-1">Jawa Barat 40267</div>
+                </div>            
               </div>
             </div>
           </div>
@@ -88,7 +85,7 @@ function Footer_v2() {
       <footer className="text-center text-gray-100 bg-[#071516] lg:text-left">
         <div className="container">
           <div className="py-2 font-sans text-sm text-center">
-            Copyright @2022 - All right reserved
+            Copyright &copy; 2022 - All Right Reserved. 
           </div>
         </div>
       </footer>

@@ -41,7 +41,7 @@ export default function Promote() {
           <div className="xl:ml-40 xl:mr-10 2xl:ml-48 mt-4 pl-2">
             <Image src={illustration} width={430} height={300} />
           </div>
-          <div className="flex items-center text-center justify-between col-span-2 xl:gap-14 2xl:gap-24 mx-10 mb-10">
+          <div className="flex items-center text-center justify-between col-span-2 xl:gap-14 2xl:gap-24 m-10">
             <div className="mx-auto my-auto">
               <div className="mx-10 2xl:mx-8">
                 <Image src={step1} />
