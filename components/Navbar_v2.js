@@ -2,10 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import Logo from "../public/assets/logo-navbar.png";
 import React, { useState } from "react";
-import NavLink from "./NavLink";
+import { useRouter } from "next/router";
 
 const Navbar_v2 = () => {
   const [open, setOpen] = useState(false);
+  const router = useRouter();
+  const currentRoute = router.pathname;
 
   return (
     <>
@@ -52,16 +54,20 @@ const Navbar_v2 = () => {
             </button>
           </div>
           <div
-            className={`pb-3 md:pb-0 items-center justify-between w-full md:flex md:w-auto md:order-1 ${
+            className={`pb-3 md:pb-0 xl:ml-96 2xl:ml-[600px] items-center justify-between w-full md:flex md:w-auto md:order-1 ${
               open ? "visible" : "hidden"
             }`}
             id="navbar-cta"
           >
-            <ul className="flex flex-col gap-1 p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white">
+            <ul className="flex flex-col gap-1 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-4 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white">
               <li>
                 <Link href={"/"}>
                   <a
-                    className="block py-2 pl-3 pr-4 font-medium text-white rounded bg-maroon md:bg-transparent md:text-textColor md:hover:font-semibold md:hover:text-maroon md:p-0"
+                    className={`block py-2 px-3 md:hover:bg-maroon md:hover:text-white font-medium md:bg-transparent text-white rounded bg-maroon  md:text-textColor  ${
+                      currentRoute === "/"
+                        ? "md:bg-maroon md:text-white md:px-3"
+                        : ""
+                    }`}
                     aria-current="page"
                   >
                     Home
@@ -71,21 +77,39 @@ const Navbar_v2 = () => {
 
               <li>
                 <Link href={"/about"}>
-                  <a className="block py-2 pl-3 pr-4 font-medium text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:bg-transparent md:text-textColor md:hover:font-semibold md:hover:text-maroon md:p-0">
+                  <a
+                    className={`block py-2 px-3 md:hover:bg-maroon md:hover:text-white font-medium text-gray-700 rounded hover:bg-gray-100 md:text-textColor  ${
+                      currentRoute === "/about"
+                        ? "md:bg-maroon md:text-white  md:px-3"
+                        : ""
+                    }`}
+                  >
                     About
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href={"/service"}>
-                  <a className="block py-2 pl-3 pr-4 font-medium text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:bg-transparent md:text-textColor md:hover:font-semibold md:hover:text-maroon md:p-0">
+                  <a
+                    className={`block py-2 px-3 md:hover:bg-maroon md:hover:text-white font-medium text-gray-700 rounded hover:bg-gray-100 md:text-textColor ${
+                      currentRoute === "/service"
+                        ? "md:bg-maroon md:text-white  md:px-3"
+                        : ""
+                    }`}
+                  >
                     Service
                   </a>
                 </Link>
               </li>
               <li>
                 <Link href={"/pricelist"}>
-                  <a className="block py-2 pl-3 pr-4 font-medium text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:bg-transparent md:text-textColor md:hover:font-semibold md:hover:text-maroon md:p-0">
+                  <a
+                    className={`block py-2 px-3 md:hover:bg-maroon md:hover:text-white font-medium text-gray-700 rounded hover:bg-gray-100 md:text-textColor ${
+                      currentRoute === "/pricelist"
+                        ? "md:bg-maroon md:text-white  md:px-3"
+                        : ""
+                    }`}
+                  >
                     Price List
                   </a>
                 </Link>
