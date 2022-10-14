@@ -9,10 +9,10 @@ function Footer_v2() {
     <>
       <footer className="text-gray-100 text-start lg:text-left bg-darkgreen">
         <div className="container p-0">
-          <div className="text-center py-8 md:text-left">
-            <div className="grid grid-cols-2 ml-16 gap-96">
+          <div className="py-8 text-center md:text-left">
+            <div className="grid grid-cols-2 mx-16 lg:gap-10 xl:gap-96">
               <div className="mr-auto">
-                <div className="-mt-2">
+                <div className="lg:-mt-2">
                   <Image src={footerLogo} />
                 </div>
                 <div className="grid grid-cols-3 mx-7">
@@ -71,7 +71,7 @@ function Footer_v2() {
                     </Link>
                   </div>
                 </div>
-                <div className="text-sm font-sans mb-1 pt-6">
+                <div className="pt-6 mb-1 font-sans text-sm">
                   <div className="mb-1">Jl. Sukabirus No.88B,</div>
                   <div className="mb-1">Citeureup, Kec. Dayeuhkolot,</div>
                   <div className="mb-1">Kabupaten Bandung,</div>
