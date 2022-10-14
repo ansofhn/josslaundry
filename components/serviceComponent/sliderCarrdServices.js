@@ -27,7 +27,7 @@ export default function SliderCardService() {
     return (
         <>
             <div className="w-full flex bg-white justify-center text-center">
-                <div className="container px-20 my-20 align-middle text-center bg-white">
+                <div className="container px-20 my-8 align-middle text-center bg-white">
                     <Swiper
                         spaceBetween={30}
                         loop={true}

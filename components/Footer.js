@@ -35,6 +35,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className="grid grid-cols-2">
+                <div className="flex flex-wrap justify-center items-center">
                 <div>
                   <h3 className="my-1 text-base font-bold text-gray-100">
                     Company
@@ -55,6 +56,7 @@ export default function Footer() {
                   Citeureup, Kec. Dayeuhkolot, <br />
                   Kabupaten Bandung, <br />
                   Jawa Barat 40267
+                </div>
                 </div>
               </div>
             </div>

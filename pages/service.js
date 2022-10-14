@@ -8,6 +8,8 @@ import BabyCare from '../components/Service/BabyCare'
 import Footer_v2 from '../components/Footer_v2'
 import ScrollToTop from "../components/ScrollToTop";
 import Pricing from "../components/Pricing"
+import ShoesCare from '../components/Service/ShoesCare'
+import LayananLainnya from '../components/Service/LayananLainnya'
 
 
 export default function service() {
@@ -17,7 +19,9 @@ export default function service() {
       <ServiceHero />
       <HouseCare />
       <BabyCare />
-      <Pricing />
+      <ShoesCare />
+      <LayananLainnya />
+      {/* <Pricing />  */}
       <ScrollToTop />
 
       <Footer_v2 />
