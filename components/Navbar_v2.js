@@ -22,7 +22,7 @@ const Navbar_v2 = () => {
             <Link href={"https://wa.link/a0gqrg"}>
               <button
                 type="button"
-                className="px-10 py-2 text-sm font-bold transition duration-300 rounded-lg cursor-pointer bg-amber text-maroon"
+                className="px-10 py-2 text-sm font-bold transition duration-300 rounded-md cursor-pointer bg-amber text-maroon"
               >
                 Hubungi Kami
               </button>
@@ -63,9 +63,9 @@ const Navbar_v2 = () => {
               <li>
                 <Link href={"/"}>
                   <a
-                    className={`block py-2 px-3 md:hover:bg-maroon md:hover:text-white font-medium md:bg-transparent text-white rounded bg-maroon  md:text-textColor  ${
+                    className={`block py-2 px-3 md:hover:bg-maroon md:hover:text-white font-medium md:bg-transparent text-textColor hover:bg-gray-100 rounded-md md:text-textColor  ${
                       currentRoute === "/"
-                        ? "md:bg-maroon md:text-white md:px-3"
+                        ? "md:bg-maroon bg-maroon text-white md:text-white md:px-3"
                         : ""
                     }`}
                     aria-current="page"
@@ -78,9 +78,9 @@ const Navbar_v2 = () => {
               <li>
                 <Link href={"/about"}>
                   <a
-                    className={`block py-2 px-3 md:hover:bg-maroon md:hover:text-white font-medium text-gray-700 rounded hover:bg-gray-100 md:text-textColor  ${
+                    className={`block py-2 px-3 md:hover:bg-maroon md:hover:text-white font-medium text-textColor rounded-md hover:bg-gray-100 md:text-textColor  ${
                       currentRoute === "/about"
-                        ? "md:bg-maroon md:text-white  md:px-3"
+                        ? "md:bg-maroon bg-maroon text-white md:text-white  md:px-3"
                         : ""
                     }`}
                   >
@@ -91,9 +91,9 @@ const Navbar_v2 = () => {
               <li>
                 <Link href={"/service"}>
                   <a
-                    className={`block py-2 px-3 md:hover:bg-maroon md:hover:text-white font-medium text-gray-700 rounded hover:bg-gray-100 md:text-textColor ${
+                    className={`block py-2 px-3 md:hover:bg-maroon md:hover:text-white font-medium text-textColor rounded-md hover:bg-gray-100 md:text-textColor ${
                       currentRoute === "/service"
-                        ? "md:bg-maroon md:text-white  md:px-3"
+                        ? "md:bg-maroon bg-maroon text-white md:text-white  md:px-3"
                         : ""
                     }`}
                   >
@@ -104,9 +104,9 @@ const Navbar_v2 = () => {
               <li>
                 <Link href={"/pricelist"}>
                   <a
-                    className={`block py-2 px-3 md:hover:bg-maroon md:hover:text-white font-medium text-gray-700 rounded hover:bg-gray-100 md:text-textColor ${
+                    className={`block py-2 px-3 md:hover:bg-maroon md:hover:text-white font-medium text-textColor rounded-md hover:bg-gray-100 md:text-textColor ${
                       currentRoute === "/pricelist"
-                        ? "md:bg-maroon md:text-white  md:px-3"
+                        ? "md:bg-maroon bg-maroon text-white md:text-white  md:px-3"
                         : ""
                     }`}
                   >
