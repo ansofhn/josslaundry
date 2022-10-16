@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
 import profile from "../public/assets/services/servoce-joslaundry.jpeg";
-import picig1 from '../public/assets/picig1.png'
-import picig2 from '../public/assets/picig2.png'
-import picig3 from '../public/assets/picig3.png'
+import picig1 from "../public/assets/picig1.png";
+import picig2 from "../public/assets/picig2.png";
+import picig3 from "../public/assets/picig3.png";
 
 function About_v2() {
   return (
@@ -73,7 +73,7 @@ function About_v2() {
             </div>
             <p className="text-sm font-light 2xl:mr-28">
               Tidak perlu cape-cape nyuci untuk kalian yang tidak ingin merusak
-              kelembutan tangan dengan jahatnya sabun cucui, karna kami sudah
+              kelembutan tangan dengan jahatnya sabun cuci, karena kami sudah
               hadir di setiap kota <br />{" "}
               <span className="italic font-medium tracking-wide">
                 Cek Sekarang Lokasinya
