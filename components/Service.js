@@ -87,12 +87,12 @@ export default function Service() {
       </div>
       <div className="bg-softblue">
         <div className="container">
-          <div className="flex items-center justify-between px-4 py-4 mb-20 text-lg font-medium mt-28 text-darkgreen bg-softblue">
+          <div className="flex items-center justify-between px-4 py-4 text-lg font-medium mt-28 text-darkgreen bg-softblue">
             Dan berbagai layanan terbaik yang kami miliki
             <Link href={"/service"}>
               <Button
                 className={
-                  "flex items-center gap-2 transition duration-300 text-sm font-bold px-8 py-2.5 rounded-lg bg-amber text-maroon md:text-sm md:px-6"
+                  "flex items-center gap-2 transition duration-300 text-sm font-bold px-8 py-2.5 rounded-lg bg-amber text-maroon md:text-sm md:px-6 hover:scale-110"
                 }
               >
                 Layanan Lainnya
