@@ -71,7 +71,7 @@ function About_v2() {
               Lebih Dari 1000 Cabang Joss Laundry tersebar di seluruh Indonesia
             </div>
             <p className="text-sm font-light 2xl:mr-28">
-              Tidak perlu cape-cape nyuci untuk kalian yang tidak ingin merusak kelembutan tangan dengan jahatnya sabun cucui, karna kami sudah hadir di setiap kota <br /> <span className="italic  font-medium tracking-wide">Cek Sekarang Lokasinya</span>
+              Tidak perlu cape-cape nyuci untuk kalian yang tidak ingin merusak kelembutan tangan dengan jahatnya sabun cucui, karna kami sudah hadir di setiap kota <br /> <span className="italic font-medium tracking-wide">Cek Sekarang Lokasinya</span>
             </p>
           </div>
           <div className="p-0 mx-4 overflow-hidden bg-gray-100 rounded-xl h-96">

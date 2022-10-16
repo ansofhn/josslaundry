@@ -7,7 +7,7 @@ import AboutHero from "./aboutComponent/AboutHero";
 export default function About() {
   return (
     <>
-      <AboutHero />
+      {/* <AboutHero /> */}
       <div className="my-20">
         <div className="container">
           <SlideOne />

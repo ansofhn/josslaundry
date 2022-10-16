@@ -10,8 +10,8 @@ export default function Feature() {
           Mengapa Harus Joss Laundry ?
         </div>
         <div className="mb-20 text-sm font-light text-center text-textColor">
-          Pelayanan terbaik dengan didukung kinerja yang handal dan
-          berpengalaman
+          Kami secara konsisten berupaya memberikan yang terbaik untuk kepuasan
+          pelanggan.
         </div>
         <div className="grid grid-cols-4 mx-20 md:mx-10 xl:mx-40 xl:mb-20">
           <div className="mx-auto">

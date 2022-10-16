@@ -6,6 +6,8 @@ import Footer_v2 from "../components/Footer_v2";
 import ScrollToTop from "../components/ScrollToTop";
 import Image from "next/image";
 import aboutus from "../public/assets/HeroAbout.png";
+import About from "../components/About";
+import About_v2 from "../components/About_v2";
 
 export default function about() {
   return (
@@ -28,8 +30,8 @@ export default function about() {
           </div>
         </div>
       </div>
-      {/* <About /> */}
-      {/* <About_v2 /> */}
+      <About />
+      <About_v2 />
       <ScrollToTop />
       <Footer_v2 />
     </>
