@@ -5,20 +5,16 @@ import SlideThree from "./aboutComponent/SlideThree";
 import AboutHero from "./aboutComponent/AboutHero";
 
 export default function About() {
-    return (
-        <>
-            <AboutHero />
-            <div className="my-20">
-                <div className="container">
-
-
-                    <SlideOne />
-                    <SlideTwo />
-
-
-                </div>
-                <SlideThree />
-            </div>
-        </>
-    );
+  return (
+    <>
+      <AboutHero />
+      <div className="my-20">
+        <div className="container">
+          <SlideOne />
+          <SlideTwo />
+        </div>
+        <SlideThree />
+      </div>
+    </>
+  );
 }
