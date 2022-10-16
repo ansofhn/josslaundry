@@ -19,7 +19,7 @@ export default function about() {
         <div className="container">
           <div className="grid items-center justify-center grid-cols-2 py-0 m-0 mx-5 md:my-14">
             <div className="px-20 text-white">
-              <h1 className="font-bold md:text-3xl lg:text-4xl xl:text-5xl">
+              <h1 className="font-bold md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
                 Tentang Kami
               </h1>
             </div>

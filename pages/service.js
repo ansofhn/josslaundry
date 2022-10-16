@@ -20,9 +20,9 @@ export default function service() {
       <Navbar_v2 />
       <div className="w-full bg-gradient-to-tr from-nileblue to-middle">
         <div className="container">
-          <div className="grid items-center justify-center grid-cols-2 py-0 m-0 mx-5 md:my-12">
+          <div className="grid items-center justify-center grid-cols-2 py-0 m-0 mx-5 md:my-12 2xl:py-10">
             <div className="px-20 text-white">
-              <h1 className="font-bold md:text-3xl lg:text-4xl xl:text-5xl">
+              <h1 className="font-bold md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
                 Layanan Kami
               </h1>
             </div>

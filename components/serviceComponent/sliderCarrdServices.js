@@ -26,8 +26,8 @@ import React from "react";
 export default function SliderCardService() {
     return (
         <>
-            <div className="w-full flex bg-white justify-center text-center">
-                <div className="container px-20 my-8 align-middle text-center bg-white">
+            <div className="flex justify-center w-full text-center bg-white">
+                <div className="container px-20 my-8 text-center align-middle bg-white">
                     <Swiper
                         spaceBetween={30}
                         loop={true}
@@ -53,54 +53,54 @@ export default function SliderCardService() {
                     >
                         <SwiperSlide>
                             <div className="relative inline-block conten-overlay">
-                                <Image className="block rounded " src={boneka} />
+                                <Image className="block rounded-md " src={boneka} />
                                 <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text">
-                                    <div className="text-white text-xl absolute top-2/4 left-2/4 -translate-y-1/2 -translate-x-1/2">Boneka</div>
+                                    <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Boneka</div>
                                 </div>
                             </div>
 
                         </SwiperSlide>
                         <SwiperSlide >
                             <div className="relative inline-block conten-overlay">
-                                <Image className="block rounded " src={tas} />
+                                <Image className="block rounded-md " src={tas} />
                                 <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text">
-                                    <div className="text-white text-xl absolute top-2/4 left-2/4 -translate-y-1/2 -translate-x-1/2">Ransel</div>
+                                    <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Ransel</div>
                                 </div>
                             </div>
 
                         </SwiperSlide>
                         <SwiperSlide >
                             <div className="relative inline-block conten-overlay">
-                                <Image className="block rounded " src={sepatu} />
+                                <Image className="block rounded-md " src={sepatu} />
                                 <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text">
-                                    <div className="text-white text-xl absolute top-2/4 left-2/4 -translate-y-1/2 -translate-x-1/2">Sepatu</div>
+                                    <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Sepatu</div>
                                 </div>
                             </div>
 
                         </SwiperSlide>
                         <SwiperSlide >
                             <div className="relative inline-block conten-overlay">
-                                <Image className="block rounded " src={pakaian} />
+                                <Image className="block rounded-md " src={pakaian} />
                                 <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text">
-                                    <div className="text-white text-xl absolute top-2/4 left-2/4 -translate-y-1/2 -translate-x-1/2">Pakaian</div>
+                                    <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Pakaian</div>
                                 </div>
                             </div>
 
                         </SwiperSlide>
                         <SwiperSlide >
                             <div className="relative inline-block conten-overlay">
-                                <Image className="block rounded " src={karpet_gordeng} />
+                                <Image className="block rounded-md " src={karpet_gordeng} />
                                 <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text">
-                                    <div className="text-white text-xl absolute top-2/4 left-2/4 -translate-y-1/2 -translate-x-1/2">Karpet</div>
+                                    <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Karpet</div>
                                 </div>
                             </div>
 
                         </SwiperSlide>
                         <SwiperSlide >
                             <div className="relative inline-block conten-overlay">
-                                <Image className="block rounded " src={bedcover} />
+                                <Image className="block rounded-md " src={bedcover} />
                                 <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text">
-                                    <div className="text-white text-xl absolute top-2/4 left-2/4 -translate-y-1/2 -translate-x-1/2">Bed Cover</div>
+                                    <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Bed Cover</div>
                                 </div>
                             </div>
 
