@@ -8,7 +8,7 @@ import Promote from "../components/Promote";
 import Service from "../components/Service";
 import HomeLayout from "../layouts/HomeLayout";
 import ScrollToTop from "../components/ScrollToTop";
-import Pricing from "../components/Pricing"
+import OurPrice from "../components/OurPrice";
 
 export default function Home() {
   return (
@@ -20,7 +20,8 @@ export default function Home() {
       <Hero />
       <Feature />
       <Service />
-      <Promote /> 
+      <OurPrice />
+      <Promote />
       <ScrollToTop />
       <Footer_v2 />
     </>
