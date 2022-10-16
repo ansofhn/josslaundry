@@ -10,7 +10,7 @@ import Button from "./Button";
 
 export default function Service() {
   return (
-    <div className="container mb-20">
+    <div className="container my-32">
       <div className="font-semibold text-center md:text-2xl lg:text-3xl xl:text-4xl text-maroon">
         Layanan Kami
       </div>
