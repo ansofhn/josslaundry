@@ -9,6 +9,10 @@ const Navbar_v2 = () => {
   const router = useRouter();
   const currentRoute = router.pathname;
 
+  const handleChange = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <>
       <nav className="fixed top-0 z-10 w-full bg-white md:border-b md:border-gray-100">
@@ -20,10 +24,7 @@ const Navbar_v2 = () => {
           </Link>
           <div className="flex md:order-2">
             <Link href={"https://wa.link/a0gqrg"}>
-              <button
-                type="button"
-                className="px-10 py-2 text-sm font-bold transition duration-300 rounded-md cursor-pointer bg-amber text-maroon"
-              >
+              <button className="px-10 py-2 text-sm font-bold transition duration-300 rounded-md cursor-pointer bg-amber text-maroon hover:bg-maroon hover:text-white">
                 Hubungi Kami
               </button>
             </Link>
@@ -31,11 +32,7 @@ const Navbar_v2 = () => {
               onClick={() => {
                 setOpen(!open);
               }}
-              data-collapse-toggle="navbar-cta"
-              type="button"
               className="inline-flex items-center p-2 text-sm rounded-lg text-maroon md:hidden hover:bg-gray-100 focus:outline-none focus:ring-0"
-              aria-controls="navbar-cta"
-              aria-expanded="false"
             >
               <span className="sr-only">Open main menu</span>
               <svg
@@ -57,60 +54,61 @@ const Navbar_v2 = () => {
             className={`pb-3 md:pb-0 xl:ml-96 2xl:ml-[600px] items-center justify-between w-full md:flex md:w-auto md:order-1 ${
               open ? "visible" : "hidden"
             }`}
-            id="navbar-cta"
           >
             <ul className="flex flex-col gap-1 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-4 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white">
               <li>
-                <Link href={"/"}>
+                <Link href={"/"} onClick={handleChange}>
                   <a
-                    className={`block py-2 px-3 md:hover:bg-maroon md:hover:text-white font-medium md:bg-transparent text-textColor hover:bg-gray-100 rounded-md md:text-textColor  ${
+                    className={`block py-2 px-3 transition duration-400 font-medium md:bg-transparent text-textColor hover:bg-gray-100 rounded-md md:text-textColor  ${
                       currentRoute === "/"
-                        ? "md:bg-maroon bg-maroon text-white md:text-white md:px-3"
-                        : ""
+                        ? "md:bg-maroon md:hover:bg-maroon md:hover:text-white hover:bg-maroon hover:text-white bg-maroon text-white md:text-white md:px-3"
+                        : "md:hover:bg-gray-100 md:hover:text-textColor hover:bg-gray-100 hover:text-textColor"
                     }`}
-                    aria-current="page"
+                    onClick={() => {
+                      router.push("/");
+                      handleChange;
+                    }}
                   >
-                    Home
+                    Beranda
                   </a>
                 </Link>
               </li>
-
               <li>
-                <Link href={"/about"}>
+                <Link href={"/about"} onClick={handleChange}>
                   <a
-                    className={`block py-2 px-3 md:hover:bg-maroon md:hover:text-white font-medium text-textColor rounded-md hover:bg-gray-100 md:text-textColor  ${
+                    className={`block py-2 px-3 transition duration-400 font-medium text-textColor rounded-md hover:bg-gray-100 md:text-textColor  ${
                       currentRoute === "/about"
-                        ? "md:bg-maroon bg-maroon text-white md:text-white  md:px-3"
-                        : ""
+                        ? "md:bg-maroon md:hover:bg-maroon md:hover:text-white hover:bg-maroon hover:text-white bg-maroon text-white md:text-white md:px-3"
+                        : "md:hover:bg-gray-100 md:hover:text-textColor hover:bg-gray-100 hover:text-textColor"
                     }`}
                   >
-                    About
+                    Tentang
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href={"/service"}>
+                <Link href={"/service"} onClick={handleChange}>
                   <a
-                    className={`block py-2 px-3 md:hover:bg-maroon md:hover:text-white font-medium text-textColor rounded-md hover:bg-gray-100 md:text-textColor ${
+                    className={`block py-2 px-3 transition duration-400 font-medium text-textColor rounded-md md:text-textColor ${
                       currentRoute === "/service"
-                        ? "md:bg-maroon bg-maroon text-white md:text-white  md:px-3"
-                        : ""
+                        ? "md:bg-maroon md:hover:bg-maroon md:hover:text-white hover:bg-maroon hover:text-white bg-maroon text-white md:text-white md:px-3"
+                        : "md:hover:bg-gray-100 md:hover:text-textColor hover:bg-gray-100 hover:text-textColor"
                     }`}
                   >
-                    Service
+                    Layanan
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href={"/pricelist"}>
+                <Link href={"/pricelist"} onClick={handleChange}>
                   <a
-                    className={`block py-2 px-3 md:hover:bg-maroon md:hover:text-white font-medium text-textColor rounded-md hover:bg-gray-100 md:text-textColor ${
+                    className={`block py-2 px-3 transition duration-400 font-medium text-textColor rounded-md hover:bg-gray-100 md:text-textColor ${
                       currentRoute === "/pricelist"
-                        ? "md:bg-maroon bg-maroon text-white md:text-white  md:px-3"
-                        : ""
+                        ? "md:bg-maroon md:hover:bg-maroon md:hover:text-white hover:bg-maroon hover:text-white bg-maroon text-white md:text-white md:px-3"
+                        : "md:hover:bg-gray-100 md:hover:text-textColor hover:bg-gray-100 hover:text-textColor"
                     }`}
                   >
-                    Price List
+                    Daftar Harga
                   </a>
                 </Link>
               </li>
