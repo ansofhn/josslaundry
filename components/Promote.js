@@ -12,9 +12,6 @@ import Button from "./Button";
 export default function Promote() {
   return (
     <div className="container">
-      <div className="font-semibold text-center md:text-2xl lg:text-3xl xl:text-4xl text-maroon">
-        Pick Up and Delivery
-      </div>
       <div className="my-10 md:mx-4 lg:mx-10 xl:p-10 bg-softblue rounded-2xl">
         <div className="grid grid-cols-2">
           <div className="pl-10 my-auto lg:leading-9 text-darkgreen">
@@ -27,7 +24,7 @@ export default function Promote() {
               </span>{" "}
               aja!
             </h3>
-            <p className="lg:text-base lg:mb-4 xl:text-xl xl:mb-6">
+            <p className="lg:text-base lg:mb-4 xl:text-lg xl:mb-6">
               Cucian kelar tanpa harus keluar
             </p>
             <Link href={"https://wa.link/a0gqrg"}>
