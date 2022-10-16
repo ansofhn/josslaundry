@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Joss Laundry</title>
+        <title>Joss Laundry - Beranda</title>
       </Head>
       <Navbar_v2 />
       <Hero />

@@ -11,7 +11,7 @@ export default function about() {
   return (
     <>
       <Head>
-        <title>About Us | Joss Laundry</title>
+        <title>Joss Laundry - Tentang</title>
       </Head>
       <Navbar_v2 />
       <About />
