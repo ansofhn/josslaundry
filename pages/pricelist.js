@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import React from "react";
 import Footer_v2 from "../components/Footer_v2";
 import Navbar_v2 from "../components/Navbar_v2";
