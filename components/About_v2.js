@@ -1,20 +1,41 @@
+import Image from "next/image";
 import React from "react";
+import profile from "../public/assets/services/servoce-joslaundry.jpeg";
+import picig1 from '../public/assets/picig1.png'
+import picig2 from '../public/assets/picig2.png'
+import picig3 from '../public/assets/picig3.png'
 
 function About_v2() {
   return (
     <div className="w-full bg-white">
       <div className="container">
-        <div className="grid grid-cols-2 gap-4 p-2 mx-20 my-32 bg-white">
-          <div className="p-2">
-            <h3 className="text-3xl font-bold text-darkgreen">Joss Laundry</h3>
-            <p className="mb-14">
-              pelayanan terbaik dengan didukung kinerja yang handal dan
-              berpengalaman
-            </p>
+        <div>
+          <div className="mt-32 mb-4 font-semibold text-center md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-maroon">
+            Selamat Datang di Joss Laundry
           </div>
-          <div className="col-start-1 p-8 rounded-xl bg-softblue/50 pb-96">
-            <h3 className="mb-2 text-xl font-bold text-darkgreen">
-              What we do
+          <div className="mb-20 text-sm font-light text-center text-textColor">
+            pelayanan terbaik dengan didukung kinerja yang handal dan
+            berpengalaman
+          </div>
+          <div className="grid grid-cols-2 gap-20 p-4 mx-24 bg-white">
+            <Image src={profile} className="rounded-xl" />
+            <div className="my-auto">
+              <h3 className="mb-10 text-xl font-semibold text-darkgreen">
+                Sejarah kami
+              </h3>
+              <p className="mb-4">
+                Joss Laundry didirikan pada tanggal 27 Juni 2020 oleh PT Berkah
+                Bersih Semesta. Berbekal pengelolaan yang profesional dan
+                handal, Joss Laundry kian diterima di masyarakat.
+              </p>
+              <p>Bebaskan Indonesi Dari Jemuran</p>
+            </div>
+          </div>
+        </div>
+        <div className="grid grid-cols-2 gap-4 p-2 mx-20 my-20 bg-white">
+          <div className="col-start-1 p-8 rounded-xl bg-softblue/50 pb-96 text-darkgreen">
+            <h3 className="mb-6 text-xl font-semibold">
+              Apa yang kami lakukan
             </h3>
             <p className="mb-4">
               Joss Laundry menawarkan jasa cuci dan setrika dengan harga yang
@@ -25,9 +46,9 @@ function About_v2() {
               kepuasan pelanggan.
             </p>
           </div>
-          <div className="p-8 rounded-xl bg-amber/50">
-            <h3 className="mb-2 text-xl font-bold text-darkgreen">
-              What we serve
+          <div className="p-8 rounded-xl bg-amber/60 text-darkgreen">
+            <h3 className="mb-6 text-xl font-semibold">
+              Apa yang dapat kami layani
             </h3>
             <p className="mb-1 font-medium ">Harga Terjangkau</p>
             <p className="mb-4">
@@ -44,34 +65,19 @@ function About_v2() {
               Laundry akan memjemput cucian anda, dan mengantarkannya kembali.
             </p>
           </div>
-          <div className="p-8 bg-red-200 rounded-xl">
-            <h3 className="mb-2 text-xl font-bold text-darkgreen">
-              Our history
-            </h3>
-            <p className="mb-4">
-              Joss Laundry didirikan pada tanggal 27 Juni 2020 oleh PT Berkah
-              Bersih Semesta. Berbekal pengelolaan yang profesional dan handal,
-              Joss Laundry kian diterima di masyarakat.
-            </p>
-            <p>Bebaskan Indonesi Dari Jemuran</p>
-          </div>
-          <div className="p-8 bg-gray-100 rounded-xl">
-            <h3 className="mb-2 text-xl font-bold text-darkgreen">
-              Our location
-            </h3>
-            <p className="mb-4">
-              Jl. Sukabirus No.88B, Citeureup, Kec. Dayeuhkolot, Kabupaten
-              Bandung, Jawa Barat 40267.
-            </p>
-          </div>
         </div>
-        <div className="grid grid-cols-2 p-2 mx-20 my-32">
+        <div className="grid grid-cols-2 p-2 mx-20 my-20">
           <div className="mx-20 my-auto">
             <div className="mb-4 text-3xl font-semibold">
               Lebih Dari 1000 Cabang Joss Laundry tersebar di seluruh Indonesia
             </div>
             <p className="text-sm font-light 2xl:mr-28">
-              Tidak perlu cape-cape nyuci untuk kalian yang tidak ingin merusak kelembutan tangan dengan jahatnya sabun cucui, karna kami sudah hadir di setiap kota <br /> <span className="italic font-medium tracking-wide">Cek Sekarang Lokasinya</span>
+              Tidak perlu cape-cape nyuci untuk kalian yang tidak ingin merusak
+              kelembutan tangan dengan jahatnya sabun cucui, karna kami sudah
+              hadir di setiap kota <br />{" "}
+              <span className="italic font-medium tracking-wide">
+                Cek Sekarang Lokasinya
+              </span>
             </p>
           </div>
           <div className="p-0 mx-4 overflow-hidden bg-gray-100 rounded-xl h-96">
@@ -85,6 +91,11 @@ function About_v2() {
             ></iframe>
           </div>
         </div>
+        {/* <div className="grid grid-cols-3 gap-10 mx-32 my-20">
+          <Image src={picig1}/>
+          <Image src={picig2}/>
+          <Image src={picig3}/>
+        </div> */}
       </div>
     </div>
   );

@@ -6,7 +6,6 @@ import Footer_v2 from "../components/Footer_v2";
 import ScrollToTop from "../components/ScrollToTop";
 import Image from "next/image";
 import aboutus from "../public/assets/HeroAbout.png";
-import About from "../components/About";
 import About_v2 from "../components/About_v2";
 
 export default function about() {
@@ -20,7 +19,7 @@ export default function about() {
         <div className="container">
           <div className="grid items-center justify-center grid-cols-2 py-0 m-0 mx-5 md:my-14">
             <div className="px-20 text-white">
-              <h1 className="font-bold md:text-4xl lg:text-5xl xl:text-6xl">
+              <h1 className="font-bold md:text-3xl lg:text-4xl xl:text-5xl">
                 Tentang Kami
               </h1>
             </div>
@@ -30,7 +29,6 @@ export default function about() {
           </div>
         </div>
       </div>
-      <About />
       <About_v2 />
       <ScrollToTop />
       <Footer_v2 />

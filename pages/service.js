@@ -22,7 +22,7 @@ export default function service() {
         <div className="container">
           <div className="grid items-center justify-center grid-cols-2 py-0 m-0 mx-5 md:my-12">
             <div className="px-20 text-white">
-              <h1 className="font-bold md:text-4xl lg:text-5xl xl:text-6xl">
+              <h1 className="font-bold md:text-3xl lg:text-4xl xl:text-5xl">
                 Layanan Kami
               </h1>
             </div>
