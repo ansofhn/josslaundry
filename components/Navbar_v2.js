@@ -59,7 +59,7 @@ const Navbar_v2 = () => {
               <li>
                 <Link href={"/"} onClick={handleChange}>
                   <a
-                    className={`block py-2 px-3 transition duration-400 font-medium md:bg-transparent text-textColor hover:bg-gray-100 rounded-md md:text-textColor  ${
+                    className={`block py-2 px-3 transition duration-400 font-medium md:bg-transparent hover:bg-gray-100 rounded-md md:text-textColor  ${
                       currentRoute === "/"
                         ? "md:bg-maroon md:hover:bg-maroon md:hover:text-white hover:bg-maroon hover:text-white bg-maroon text-white md:text-white md:px-3"
                         : "md:hover:bg-gray-100 md:hover:text-textColor hover:bg-gray-100 hover:text-textColor"
@@ -76,7 +76,7 @@ const Navbar_v2 = () => {
               <li>
                 <Link href={"/about"} onClick={handleChange}>
                   <a
-                    className={`block py-2 px-3 transition duration-400 font-medium text-textColor rounded-md hover:bg-gray-100 md:text-textColor  ${
+                    className={`block py-2 px-3 transition duration-400 font-medium rounded-md hover:bg-gray-100 md:text-textColor  ${
                       currentRoute === "/about"
                         ? "md:bg-maroon md:hover:bg-maroon md:hover:text-white hover:bg-maroon hover:text-white bg-maroon text-white md:text-white md:px-3"
                         : "md:hover:bg-gray-100 md:hover:text-textColor hover:bg-gray-100 hover:text-textColor"
@@ -89,7 +89,7 @@ const Navbar_v2 = () => {
               <li>
                 <Link href={"/service"} onClick={handleChange}>
                   <a
-                    className={`block py-2 px-3 transition duration-400 font-medium text-textColor rounded-md md:text-textColor ${
+                    className={`block py-2 px-3 transition duration-400 font-medium rounded-md md:text-textColor ${
                       currentRoute === "/service"
                         ? "md:bg-maroon md:hover:bg-maroon md:hover:text-white hover:bg-maroon hover:text-white bg-maroon text-white md:text-white md:px-3"
                         : "md:hover:bg-gray-100 md:hover:text-textColor hover:bg-gray-100 hover:text-textColor"
@@ -102,7 +102,7 @@ const Navbar_v2 = () => {
               <li>
                 <Link href={"/pricelist"} onClick={handleChange}>
                   <a
-                    className={`block py-2 px-3 transition duration-400 font-medium text-textColor rounded-md hover:bg-gray-100 md:text-textColor ${
+                    className={`block py-2 px-3 transition duration-400 font-medium rounded-md hover:bg-gray-100 md:text-textColor ${
                       currentRoute === "/pricelist"
                         ? "md:bg-maroon md:hover:bg-maroon md:hover:text-white hover:bg-maroon hover:text-white bg-maroon text-white md:text-white md:px-3"
                         : "md:hover:bg-gray-100 md:hover:text-textColor hover:bg-gray-100 hover:text-textColor"
