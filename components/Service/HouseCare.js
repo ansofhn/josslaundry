@@ -14,7 +14,7 @@ export default function HouseCare() {
         <div className="order-2 flex flex-col justify-center items-center">
           <h1 className="text-3xl font-bold text-maroon py-3">House Care</h1>
           <p className="text-maroon text-center px-18 lg:px-20 text-lg tracking-normal">Barang-barang yang bersih dapat membuat tempat tinggal anda terasa lebih nyaman</p>
-          <Link href={"#"}>
+          <Link href={"/pricelist#house-care"}>
                 <Button
                   className={
                     "flex items-center gap-2 transition duration-300 font-bold px-6 py-2.5 mt-6 rounded-lg bg-yellowButton text-maroon text-base"

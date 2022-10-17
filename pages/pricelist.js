@@ -92,7 +92,7 @@ export default function pricelist() {
               <div>21,000</div>
             </div>
           </div>
-          <div className="text-lg font-semibold text-maroon">House Care</div>
+          <div className="text-lg font-semibold text-maroon" id="house-care">House Care</div>
           <div className="text-lg font-semibold text-maroon">Lainnya</div>
           <div className="p-6 border-t-2 rounded-br-md rounded-bl-md bg-gray-50 border-amber">
             <h2 className="mt-2 mb-2 font-medium">Keset</h2>
@@ -158,7 +158,7 @@ export default function pricelist() {
               <div>Boneka Besar</div>
               <div>70,000</div>
             </div>
-            <h2 className="mt-4 mb-2 font-medium">Baby Care</h2>
+            <h2 className="mt-4 mb-2 font-medium" id="baby-care">Baby Care</h2>
             <div className="flex items-center justify-between text-sm font-light text-darkgreen">
               <div>Gendongan Bayi Kecil</div>
               <div>20,000</div>

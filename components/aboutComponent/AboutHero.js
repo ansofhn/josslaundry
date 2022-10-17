@@ -9,7 +9,7 @@ export default function ServiceHero() {
         <div className="container">
           <div className="grid items-center justify-center grid-cols-2 py-0 m-0 mx-5 md:my-6">
             <div className="px-20 text-white py-15 sm:px-6 sm:pt-12 xl:px-14">
-              <h1 className="font-bold md:text-4xl lg:text-5xl xl:text-6xl">
+              <h1 className="font-bold md:text-4xl lg:text-6xl xl:text-6xl">
                 Tentang Kami
               </h1>
             </div>
