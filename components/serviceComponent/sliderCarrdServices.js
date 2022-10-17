@@ -1,9 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 import bedcover from "../../public/assets/services/6.png";
 import sepatu from "../../public/assets/services/5.png";
 import pakaian from "../../public/assets/services/7.png";
 import boneka from "../../public/assets/services/3.png";
 import tas from "../../public/assets/services/2.png";
+import helm from "../../public/assets/services/4.png";
 import karpet_gordeng from "../../public/assets/services/1.png";
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -54,54 +56,68 @@ export default function SliderCardService() {
                         <SwiperSlide>
                             <div className="relative inline-block conten-overlay">
                                 <Image className="block rounded-md " src={boneka} />
-                                <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text">
-                                    <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Boneka</div>
-                                </div>
+                                <Link href={'/pricelist#boneka'}>
+                                    <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text" style={{cursor: "pointer"}}>
+                                        <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Boneka</div>
+                                    </div>
+                                </Link>
                             </div>
 
                         </SwiperSlide>
                         <SwiperSlide >
                             <div className="relative inline-block conten-overlay">
                                 <Image className="block rounded-md " src={tas} />
-                                <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text">
-                                    <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Ransel</div>
-                                </div>
+                                <Link href={'/pricelist#pakaian'}>
+                                    <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text" style={{cursor: "pointer"}}>
+                                        <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Ransel</div>
+                                    </div>
+                                </Link>
                             </div>
 
                         </SwiperSlide>
-                        <SwiperSlide >
-                            <div className="relative inline-block conten-overlay">
-                                <Image className="block rounded-md " src={sepatu} />
-                                <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text">
-                                    <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Sepatu</div>
-                                </div>
-                            </div>
 
-                        </SwiperSlide>
                         <SwiperSlide >
                             <div className="relative inline-block conten-overlay">
                                 <Image className="block rounded-md " src={pakaian} />
-                                <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text">
-                                    <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Pakaian</div>
-                                </div>
+                                <Link href={'/pricelist#pakaian'}>
+                                    <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text" style={{cursor: "pointer"}}>
+                                        <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Pakaian</div>
+                                    </div>
+                                </Link>
+                            </div>
+                        </SwiperSlide>
+
+                        <SwiperSlide >
+                            <div className="relative inline-block conten-overlay">
+                                <Image className="block rounded-md " src={helm} />
+                                <Link href={'/pricelist#helm'}>
+                                    <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text" style={{cursor: "pointer"}}>
+                                        <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Helm</div>
+                                    </div>
+                                </Link>
                             </div>
 
                         </SwiperSlide>
+
                         <SwiperSlide >
                             <div className="relative inline-block conten-overlay">
                                 <Image className="block rounded-md " src={karpet_gordeng} />
-                                <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text">
-                                    <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Karpet</div>
-                                </div>
+                                <Link href={'/pricelist'}>
+                                    <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text" style={{cursor: "pointer"}}>
+                                        <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Karpet</div>
+                                    </div>
+                                </Link>
                             </div>
 
                         </SwiperSlide>
                         <SwiperSlide >
                             <div className="relative inline-block conten-overlay">
                                 <Image className="block rounded-md " src={bedcover} />
-                                <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text">
-                                    <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Bed Cover</div>
-                                </div>
+                                <Link href={'/pricelist'}>
+                                    <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text" style={{cursor: "pointer"}}>
+                                        <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Bed Cover</div>
+                                    </div>
+                                </Link>
                             </div>
 
                         </SwiperSlide>

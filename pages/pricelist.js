@@ -33,7 +33,7 @@ export default function pricelist() {
         </div>
         <div className="grid grid-cols-2 gap-6 mx-24 my-20">
           <div className="text-lg font-semibold text-maroon">Paket Laundry Kiloan</div>
-          <div className="text-lg font-semibold text-maroon">Pakaian Satuan</div>
+          <div className="text-lg font-semibold text-maroon" id="pakaian">Pakaian Satuan</div>
           <div className="p-6 border-t-2 rounded-br-md rounded-bl-md bg-gray-50 border-amber">
             <h2 className="mt-2 mb-2 font-medium">Reguler (2 Hari)</h2>
             <div className="flex items-center justify-between text-sm font-light text-darkgreen">
@@ -136,7 +136,7 @@ export default function pricelist() {
             </div>
           </div>
           <div className="p-6 border-t-2 rounded-br-md rounded-bl-md bg-gray-50 border-amber">
-            <h2 className="mt-2 mb-2 font-medium">Helm</h2>
+            <h2 className="mt-2 mb-2 font-medium" id="helm">Helm</h2>
             <div className="flex items-center justify-between text-sm font-light text-darkgreen">
               <div>Helm Biasa</div>
               <div>25,000</div>
@@ -145,7 +145,7 @@ export default function pricelist() {
               <div>Helm Fullface</div>
               <div>30,000</div>
             </div>
-            <h2 className="mt-4 mb-2 font-medium">Boneka</h2>
+            <h2 className="mt-4 mb-2 font-medium" id="boneka">Boneka</h2>
             <div className="flex items-center justify-between text-sm font-light text-darkgreen">
               <div>Boneka Kecil</div>
               <div>15,000</div>
