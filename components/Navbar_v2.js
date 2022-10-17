@@ -16,13 +16,13 @@ const Navbar_v2 = () => {
   return (
     <>
       <nav className="fixed top-0 z-10 w-full bg-white md:border-b md:border-gray-100">
-        <div className="container flex flex-wrap items-center justify-between mx-auto">
+        <div className="container flex flex-wrap items-center justify-between mx-auto sm:ml-0">
           <Link href={"/"}>
             <div className="flex items-center py-2 cursor-pointer gap-x-2">
               <Image src={Logo} />
             </div>
           </Link>
-          <div className="flex md:order-2">
+          <div className="flex md:order-2 mr-2 sm:mr-[-6rem] md:mr-[0rem]">
             <Link href={"https://wa.link/a0gqrg"}>
               <button className="px-10 py-2 text-sm font-bold transition duration-300 rounded-md cursor-pointer bg-amber text-maroon hover:bg-maroon hover:text-white">
                 Hubungi Kami

@@ -9,10 +9,10 @@ function Footer_v2() {
     <>
       <footer className="text-gray-100 text-start lg:text-left bg-darkgreen">
         <div className="container p-0">
-          <div className="py-8 text-center md:text-left">
-            <div className="grid grid-cols-2 mx-16 lg:gap-10 xl:gap-96">
-              <div className="mr-auto">
-                <div className="lg:-mt-2">
+          <div className="py-0 sm:py-8 text-center md:text-left">
+            <div className="grid grid-cols-2 lg:ml-16 xl:gap-96">
+              <div className="mr-auto ml-4 sm:ml-0">
+                <div className="mt-10 sm:mt-0 lg:mt-2">
                   <Image src={footerLogo} />
                 </div>
                 <div className="grid grid-cols-3 mx-7">
@@ -48,14 +48,14 @@ function Footer_v2() {
                   </Link>
                 </div>
               </div>
-              <div className="grid grid-cols-2">
+              <div className="grid grid-cols-1 sm:grid-cols-2 text-left">
                 <div className="pt-6">
-                  <h3 className="my-1 text-sm font-semibold text-gray-100">
+                  <h3 className="my-1 text-xs sm:text-sm font-semibold text-gray-100">
                     Tentang Kami
                   </h3>
                   <div className="mb-1">
                     <Link href={"/about"}>
-                      <a className="font-sans text-sm hover:text-white">
+                      <a className="font-sans text-xs sm:text-sm hover:text-white">
                         Tentang
                       </a>
                     </Link>
@@ -64,14 +64,14 @@ function Footer_v2() {
                     <Link href={"https://wa.link/a0gqrg"}>
                       <a
                         target={"_blank"}
-                        className="font-sans text-sm hover:text-white"
+                        className="font-sans text-xs sm:text-sm hover:text-white"
                       >
                         Kontak kami
                       </a>
                     </Link>
                   </div>
                 </div>
-                <div className="pt-6 mb-1 font-sans text-sm">
+                <div className="pt-6 mb-1 font-sans text-xs sm:text-sm">
                   <div className="mb-1">Jl. Sukabirus No.88B,</div>
                   <div className="mb-1">Citeureup, Kec. Dayeuhkolot,</div>
                   <div className="mb-1">Kabupaten Bandung,</div>
@@ -84,7 +84,7 @@ function Footer_v2() {
       </footer>
       <footer className="text-center text-gray-100 bg-[#071516] lg:text-left">
         <div className="container">
-          <div className="py-2 font-sans text-sm text-center">
+          <div className="py-2 font-sans text-xs sm:text-sm text-center">
             Copyright &copy; 2022 - All Right Reserved. 
           </div>
         </div>

@@ -12,61 +12,64 @@ import Button from "./Button";
 export default function Promote() {
   return (
     <div className="container">
-      <div className="my-10 md:mx-4 lg:mx-10 xl:p-10 bg-softblue rounded-2xl">
-        <div className="grid grid-cols-2">
-          <div className="pl-10 my-auto lg:leading-9 text-darkgreen">
-            <h3 className="font-semibold lg:text-xl xl:text-2xl 2xl:text-3xl ">
+      <div className="px-3 sm:px-10 py-6 mx-4 sm:mx-10 my-10 bg-softblue rounded-2xl md:px-0">
+        <div className="grid grid-cols-1 sm:grid-cols-2">
+          <div className="my-auto md:ml-10 lg:leading-9 text-darkgreen">
+            <div className="mx-2 sm:hidden">
+              <Image src={illustration} width={"350px"} height={"235px"}/>
+            </div>
+            <h3 className="text-sm sm:text-base text-center sm:text-left font-semibold lg:text-xl xl:text-2xl 2xl:text-3xl ">
               Tidak ada waktu untuk ke JOSS LAUNDRY?
             </h3>
-            <h3 className="font-semibold lg:text-xl xl:text-2xl 2xl:text-3xl">
-              <span className="font-bold text-maroon">
+            <h3 className="font-semibold text-sm sm:text-base text-center sm:text-left lg:text-xl xl:text-2xl 2xl:text-3xl">
+              <span className="font-bold text-base lg:text-xl xl:text-2xl 2xl:text-3xl text-maroon">
                 Pick Up and Delivery
               </span>{" "}
               aja!
             </h3>
-            <p className="lg:text-base lg:mb-4 xl:text-lg xl:mb-6">
+            <p className="text-center text-xs sm:text-base sm:text-left lg:text-base lg:mb-4 xl:text-lg xl:mb-6">
               Cucian kelar tanpa harus keluar
             </p>
             <Link href={"https://wa.link/a0gqrg"}>
               <Button
                 className={
-                  "flex items-center gap-2 transition duration-300 text-sm font-bold px-8 py-2.5 mt-2 rounded-lg bg-amber text-maroon"
+                  "mx-auto sm:mx-0 flex items-center gap-2 transition duration-300 text-sm font-bold px-8 py-2.5 mt-2 rounded-lg bg-amber text-maroon"
                 }
               >
                 Hubungi Kami
               </Button>
             </Link>
           </div>
-          <div className="flex items-center justify-end px-10 py-10 xl:w-full xl:ml-0 lg:w-[80%] lg:ml-20">
+          <div className="hidden sm:inline xl:ml-40 xl:mr-10 2xl:ml-64 mt-4 pl-2 md:mr-12 lg:ml-12">
             <Image src={illustration} width={"350px"} height={"235px"}/>
           </div>
-          <div className="flex items-center justify-between col-span-2 text-center md:m-8 lg:m-10 md:gap-3 lg:gap-6 xl:gap-14 2xl:gap-24">
-            <div className="mx-auto my-auto md:mt-0">
-              <div className="lg:mx-10 md:mx-7 2xl:mx-8">
+          <div className="hidden sm:flex items-center text-center justify-between col-span-2 xl:gap-14 2xl:gap-24 my-4 md:m-10">
+            <div className="mx-auto my-auto mt-0">
+              <div className="mx-6 md:mx-10 2xl:mx-8">
                 <Image src={step1} />
               </div>
               <div className="text-sm font-medium">Siapkan pakaian kotor</div>
             </div>
-            <div className="mx-auto my-auto md:mt-0">
-              <div className="lg:mx-10 md:mx-7 2xl:mx-8">
+            <div className="mx-auto my-auto mt-0">
+              <div className="mx-6 md:mx-10 2xl:mx-8">
                 <Image src={step2} />
               </div>
               <div className="text-sm font-medium">Hubungi kami</div>
             </div>
-            <div className="mx-auto my-auto md:mt-0">
-              <div className="lg:mx-10 md:mx-7 2xl:mx-8">
+            <div className="mx-auto my-auto mt-0">
+              <div className="mx-6 md:mx-10 2xl:mx-8">
                 <Image src={step3} />
               </div>
               <div className="text-sm font-medium">Pakaian siap jemput</div>
             </div>
-            <div className="mx-auto my-auto md:mt-0">
-              <div className="lg:mx-10 md:mx-7 2xl:mx-8">
+            <div className="mx-auto my-auto mt-0">
+              <div className="mx-6 md:mx-10 2xl:mx-8">
                 <Image src={step4} />
               </div>
               <div className="text-sm font-medium">Pakaian diproses</div>
             </div>
-            <div className="mx-auto my-auto md:mt-0">
-              <div className="lg:mx-10 md:mx-7 2xl:mx-8">
+            <div className="mx-auto my-auto mt-0">
+              <div className="mx-6 md:mx-10 2xl:mx-8">
                 <Image src={step5} />
               </div>
               <div className="text-sm font-medium">Pakaian siap antar</div>

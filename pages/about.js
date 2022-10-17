@@ -5,7 +5,7 @@ import Navbar_v2 from "../components/Navbar_v2";
 import Footer_v2 from "../components/Footer_v2";
 import ScrollToTop from "../components/ScrollToTop";
 import Image from "next/image";
-import aboutus from "../public/assets/HeroAbout.png";
+import aboutus from "../public/assets/aboutus.png";
 import About_v2 from "../components/About_v2";
 
 export default function about() {
@@ -23,7 +23,7 @@ export default function about() {
                 Tentang Kami
               </h1>
             </div>
-            <div className="w-3/5 mx-auto mt-20 mb-10">
+            <div className="w-full mx-auto mt-20 mb-10">
               <Image src={aboutus} />
             </div>
           </div>
