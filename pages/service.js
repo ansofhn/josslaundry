@@ -10,6 +10,7 @@ import LayananLainnya from "../components/Service/LayananLainnya";
 import Head from "next/head";
 import Image from "next/image";
 import layanankami from '../public/assets/layanan-kami.png';
+import ServiceHero from "../components/Service/ServiceHero";
 
 export default function service() {
   return (
@@ -18,7 +19,7 @@ export default function service() {
         <title>Joss Laundry - Layanan</title>
       </Head>
       <Navbar_v2 />
-      <div className="w-full bg-gradient-to-tr from-nileblue to-middle">
+      {/* <div className="w-full bg-gradient-to-tr from-nileblue to-middle">
         <div className="container">
           <div className="grid items-center justify-center grid-cols-2 py-0 m-0 mx-5 md:my-12 2xl:py-10">
             <div className="px-20 text-white">
@@ -31,7 +32,8 @@ export default function service() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */} 
+      <ServiceHero />
       <HouseCare />
       <BabyCare />
       <ShoesCare />

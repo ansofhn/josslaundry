@@ -7,7 +7,7 @@ import layanankami from '../../public/assets/layanan-kami.png';
 
 export default function ServiceHero() {
   return (
-    <section className="px-3 pb-5 pt-[110px] bg-gradient-to-l from-nileblue to-middle lg:h-[555px]">
+    <section className="px-3 pb-5 pt-[110px] bg-gradient-to-tr from-orange-500 to-yellow-500 lg:h-[555px]">
       <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
         <div className="flex flex-col justify-center items-center">
           <p className="flex text-6xl font-bold text-white text-center tracking-normal">Layanan Kami</p>
