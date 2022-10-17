@@ -5,7 +5,7 @@ import Button from "../Button";
 
 export default function HouseCare() {
   return (
-    <section className="px-3 py-5 mt-8 container">
+    <section className="px-8 py-5 mt-8">
       <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
         <div className="order-1">
           <PhotoHouseCare />

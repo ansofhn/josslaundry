@@ -7,12 +7,12 @@ import stroller from "../../public/assets/stroller.png";
 
 export default function BabyCare() {
   return (
-    <div className="bg-nileblue mt-8 pb-8 lg:pb-0">
+    <div className="bg-softblue mt-8 pb-8 lg:pb-0">
       {/* <div className="container"> */}
         <div className="grid items-center gap-5 lg:ml-32 lg:grid-cols-2">
           <div className="flex flex-col items-center justify-center order-2 px-8 lg:order-1">
-            <h1 className="py-3 text-3xl font-bold text-white">Baby Care</h1>
-            <p className="px-18 text-lg tracking-normal text-center text-white">
+            <h1 className="py-3 text-3xl font-bold text-black">Baby Care</h1>
+            <p className="px-18 text-lg tracking-normal text-center text-black">
               Sayangi bayi anda dengan selalu menjaga kebersihan barang-barang
               yang berkontak langsung dengan buah hati tercinta
             </p>
