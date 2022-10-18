@@ -18,7 +18,9 @@ function About_v2() {
             berpengalaman
           </div>
           <div className="grid grid-cols-2 gap-20 p-4 mx-24 bg-white">
+
             <Image src={profile} className="rounded-xl" />
+
             <div className="my-auto">
               <h3 className="mb-10 text-xl font-semibold text-darkgreen">
                 Sejarah kami
