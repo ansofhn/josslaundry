@@ -18,7 +18,7 @@ export default function BabyCare() {
             Sayangi bayi anda dengan selalu menjaga kebersihan barang-barang
             yang berkontak langsung dengan buah hati tercinta
           </p>
-          <Link href={"/pricelist#baby-care"}>
+          <Link href={"/pricelist#lainnya"}>
             <Button
               className={
                 "flex items-center gap-2 transition duration-300 font-bold px-6 py-2.5 mt-6 rounded-lg bg-yellowButton text-maroon text-base"

@@ -105,7 +105,7 @@ export default function pricelist() {
           >
             House Care
           </div>
-          <div className="order-7 text-lg font-bold text-maroon md:order-6">
+          <div className="order-7 text-lg font-bold text-maroon md:order-6" id="lainnya">
             Lainnya
           </div>
           <div className="order-6 p-6 border-t-2 rounded-br-md rounded-bl-md bg-gray-50 border-amber md:order-7">
@@ -117,19 +117,6 @@ export default function pricelist() {
             <div className="flex items-center justify-between mb-2 text-sm font-light text-darkgreen">
               <div>Karpet Lipat</div>
               <div>27,000</div>
-            </div>
-            <h2 className="mt-4 mb-2 font-medium">Selimut</h2>
-            <div className="flex items-center justify-between text-sm font-light text-darkgreen">
-              <div>Selimut Kecil</div>
-              <div>15,000</div>
-            </div>
-            <div className="flex items-center justify-between text-sm font-light text-darkgreen">
-              <div>Selimut Sedang</div>
-              <div>20,000</div>
-            </div>
-            <div className="flex items-center justify-between mb-2 text-sm font-light text-darkgreen">
-              <div>Selimut Besar</div>
-              <div>25,000</div>
             </div>
             <h2 className="mt-4 mb-2 font-medium">Bantal</h2>
             <div className="flex items-center justify-between text-sm font-light text-darkgreen">
@@ -167,6 +154,26 @@ export default function pricelist() {
               <div>Bed Cover Fullset</div>
               <div>50,000</div>
             </div>
+
+            {/* Gorden */} 
+            <h2 className="mt-4 mb-2 font-medium" id="gorden">Gorden</h2>
+            <div className="flex items-center justify-between text-sm font-light text-darkgreen">
+              <div>Gorden</div>
+              <div>10,000</div>
+            </div>
+            <div className="flex items-center justify-between text-sm font-light text-darkgreen">
+              <div>Gorden Tipis</div>
+              <div>5,000</div>
+            </div>
+            <div className="flex items-center justify-between text-sm font-light text-darkgreen">
+              <div>Gorden Tebal</div>
+              <div>15,000</div>
+            </div>
+            <div className="flex items-center justify-between mb-2 text-sm font-light text-darkgreen">
+              <div>Bed Cover Fullset</div>
+              <div>50,000</div>
+            </div>
+
           </div>
           <div className="order-8 p-6 border-t-2 rounded-br-md rounded-bl-md bg-gray-50 border-amber">
             <h2 className="mt-2 mb-2 font-medium" id="helm">
@@ -179,21 +186,6 @@ export default function pricelist() {
             <div className="flex items-center justify-between mb-2 text-sm font-light text-darkgreen">
               <div>Helm Fullface</div>
               <div>30,000</div>
-            </div>
-            <h2 className="mt-4 mb-2 font-medium" id="boneka">
-              Boneka
-            </h2>
-            <div className="flex items-center justify-between text-sm font-light text-darkgreen">
-              <div>Boneka Kecil</div>
-              <div>15,000</div>
-            </div>
-            <div className="flex items-center justify-between text-sm font-light text-darkgreen">
-              <div>Boneka Sedang</div>
-              <div>25,000</div>
-            </div>
-            <div className="flex items-center justify-between mb-2 text-sm font-light text-darkgreen">
-              <div>Boneka Besar</div>
-              <div>70,000</div>
             </div>
             <h2 className="mt-4 mb-2 font-medium" id="baby-care">
               Baby Care
@@ -214,7 +206,28 @@ export default function pricelist() {
               <div>Stroller</div>
               <div>100,000</div>
             </div>
-            <h2 className="mt-2 mb-2 font-medium" id="tas">Tas</h2>
+
+            {/* Shoes Care */}
+            <h2 className="mt-4 mb-2 font-medium" id="shoes-care">Shoes Care</h2>
+            <div className="flex items-center justify-between text-sm font-light text-darkgreen">
+              <div>Sepatu Sneakers</div>
+              <div>40,000</div>
+            </div>
+            <div className="flex items-center justify-between text-sm font-light text-darkgreen">
+              <div>Sepatu Suede</div>
+              <div>60,000</div>
+            </div>
+            <div className="flex items-center justify-between text-sm font-light text-darkgreen">
+              <div>Sepatu Leather</div>
+              <div>70,000</div>
+            </div>
+            <div className="flex items-center justify-between mb-2 text-sm font-light text-darkgreen">
+              <div>Tas Ransel</div>
+              <div>75,000</div>
+            </div>
+
+            {/* Tas */}
+            <h2 className="mt-4 mb-2 font-medium" id="tas">Tas</h2>
             <div className="flex items-center justify-between text-sm font-light text-darkgreen">
               <div>Tas Gunung</div>
               <div>30,000</div>

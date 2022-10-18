@@ -7,6 +7,8 @@ import boneka from "../../public/assets/services/3.png";
 import tas from "../../public/assets/services/2.png";
 import helm from "../../public/assets/services/4.png";
 import karpet_gordeng from "../../public/assets/services/1.png";
+import gorden from "../../public/assets/services/gorden.png"
+// import gorden from "../../public/assets/services/gorden-2.jpg"
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -53,21 +55,10 @@ export default function SliderCardService() {
                             }
                         }}
                     >
-                        <SwiperSlide>
-                            <div className="relative inline-block conten-overlay">
-                                <Image className="block rounded-md " src={boneka} />
-                                <Link href={'/pricelist#boneka'}>
-                                    <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text" style={{cursor: "pointer"}}>
-                                        <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Boneka</div>
-                                    </div>
-                                </Link>
-                            </div>
-
-                        </SwiperSlide>
                         <SwiperSlide >
                             <div className="relative inline-block conten-overlay">
                                 <Image className="block rounded-md " src={tas} />
-                                <Link href={'/pricelist#tas'}>
+                                <Link href={'/pricelist#lainnya'}>
                                     <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text" style={{cursor: "pointer"}}>
                                         <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Ransel</div>
                                     </div>
@@ -90,9 +81,21 @@ export default function SliderCardService() {
                         <SwiperSlide >
                             <div className="relative inline-block conten-overlay">
                                 <Image className="block rounded-md " src={helm} />
-                                <Link href={'/pricelist#helm'}>
+                                <Link href={'/pricelist#lainnya'}>
                                     <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text" style={{cursor: "pointer"}}>
                                         <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Helm</div>
+                                    </div>
+                                </Link>
+                            </div>
+
+                        </SwiperSlide>
+
+                        <SwiperSlide>
+                            <div className="relative inline-block conten-overlay">
+                                <Image className="block rounded-md " src={gorden} />
+                                <Link href={'/pricelist#gorden'}>
+                                    <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text" style={{cursor: "pointer"}}>
+                                        <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Gorden</div>
                                     </div>
                                 </Link>
                             </div>
@@ -102,7 +105,7 @@ export default function SliderCardService() {
                         <SwiperSlide >
                             <div className="relative inline-block conten-overlay">
                                 <Image className="block rounded-md " src={karpet_gordeng} />
-                                <Link href={'/pricelist#karpet'}>
+                                <Link href={'/pricelist#house-care'}>
                                     <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text" style={{cursor: "pointer"}}>
                                         <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Karpet</div>
                                     </div>

@@ -14,7 +14,7 @@ export default function ShoesCare() {
         <div className="order-2 flex flex-col justify-center items-center">
           <h1 className="text-3xl font-bold text-maroon py-3">Shoes Care</h1>
           <p className="text-maroon text-center px-18 lg:px-16 text-lg tracking-normal">Sepatu yang bersih dan wangi membuat anda memberikan kesan pertama yang baik untuk orang-orang di sekitar anda</p>
-          <Link href={"/pricelist"}>
+          <Link href={"/pricelist#lainnya"}>
                 <Button
                   className={
                     "flex items-center gap-2 transition duration-300 font-bold px-6 py-2.5 mt-6 rounded-lg bg-yellowButton text-maroon text-base"
