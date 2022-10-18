@@ -7,7 +7,7 @@ export default function ShoesCare() {
   return (
     <section className="grid place-items-center px-8 py-5 mt-8 lg:h-[500px]">
       <div className="grid lg:grid-cols-2 items-center justify-items-center gap-5">
-        <div className="order-1 px-0 sm:px-16 lg:px-8">
+        <div className="order-1 px-5 sm:px-36 lg:px-20">
           <PhotoShoesCare />
         </div>
 
