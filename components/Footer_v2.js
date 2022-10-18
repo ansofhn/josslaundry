@@ -71,7 +71,7 @@ function Footer_v2() {
                     </Link>
                   </div>
                 </div>
-                <div className="pt-6 mb-1 font-sans text-xs sm:text-sm">
+                <div className="py-6 mb-1 font-sans text-xs sm:text-sm">
                   <div className="mb-1">Jl. Sukabirus No.88B,</div>
                   <div className="mb-1">Citeureup, Kec. Dayeuhkolot,</div>
                   <div className="mb-1">Kabupaten Bandung,</div>
