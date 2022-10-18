@@ -109,14 +109,14 @@ export default function pricelist() {
             Lainnya
           </div>
           <div className="order-6 p-6 border-t-2 rounded-br-md rounded-bl-md bg-gray-50 border-amber md:order-7">
-            <h2 className="mt-2 mb-2 font-medium">Keset</h2>
+            <h2 className="mt-2 mb-2 font-medium" id="karpet">Karpet</h2>
             <div className="flex items-center justify-between text-sm font-light text-darkgreen">
-              <div>Keset Kecil</div>
-              <div>15,000</div>
+              <div>Karpet Tebal Bulu</div>
+              <div>18,000</div>
             </div>
             <div className="flex items-center justify-between mb-2 text-sm font-light text-darkgreen">
-              <div>Keset Normal - Besar</div>
-              <div>35,000</div>
+              <div>Karpet Lipat</div>
+              <div>27,000</div>
             </div>
             <h2 className="mt-4 mb-2 font-medium">Selimut</h2>
             <div className="flex items-center justify-between text-sm font-light text-darkgreen">
@@ -146,6 +146,25 @@ export default function pricelist() {
             </div>
             <div className="flex items-center justify-between mb-2 text-sm font-light text-darkgreen">
               <div>Bantal Guling</div>
+              <div>50,000</div>
+            </div>
+
+            {/* Bed Cover */} 
+            <h2 className="mt-4 mb-2 font-medium" id="bed-cover">Bed Cover</h2>
+            <div className="flex items-center justify-between text-sm font-light text-darkgreen">
+              <div>Bed Cover Kecil</div>
+              <div>25,000</div>
+            </div>
+            <div className="flex items-center justify-between text-sm font-light text-darkgreen">
+              <div>Bed Cover Sedang</div>
+              <div>30,000</div>
+            </div>
+            <div className="flex items-center justify-between text-sm font-light text-darkgreen">
+              <div>Bed Cover Besar</div>
+              <div>35,000</div>
+            </div>
+            <div className="flex items-center justify-between mb-2 text-sm font-light text-darkgreen">
+              <div>Bed Cover Fullset</div>
               <div>50,000</div>
             </div>
           </div>
@@ -194,6 +213,23 @@ export default function pricelist() {
             <div className="flex items-center justify-between text-sm font-light text-darkgreen">
               <div>Stroller</div>
               <div>100,000</div>
+            </div>
+            <h2 className="mt-2 mb-2 font-medium" id="tas">Tas</h2>
+            <div className="flex items-center justify-between text-sm font-light text-darkgreen">
+              <div>Tas Gunung</div>
+              <div>30,000</div>
+            </div>
+            <div className="flex items-center justify-between text-sm font-light text-darkgreen">
+              <div>Tas Koper</div>
+              <div>40,000</div>
+            </div>
+            <div className="flex items-center justify-between text-sm font-light text-darkgreen">
+              <div>Tas Kulit</div>
+              <div>70,000</div>
+            </div>
+            <div className="flex items-center justify-between mb-2 text-sm font-light text-darkgreen">
+              <div>Tas Ransel</div>
+              <div>75,000</div>
             </div>
           </div>
         </div>

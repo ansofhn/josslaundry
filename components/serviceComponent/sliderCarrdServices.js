@@ -67,7 +67,7 @@ export default function SliderCardService() {
                         <SwiperSlide >
                             <div className="relative inline-block conten-overlay">
                                 <Image className="block rounded-md " src={tas} />
-                                <Link href={'/pricelist#pakaian'}>
+                                <Link href={'/pricelist#tas'}>
                                     <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text" style={{cursor: "pointer"}}>
                                         <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Ransel</div>
                                     </div>
@@ -102,7 +102,7 @@ export default function SliderCardService() {
                         <SwiperSlide >
                             <div className="relative inline-block conten-overlay">
                                 <Image className="block rounded-md " src={karpet_gordeng} />
-                                <Link href={'/pricelist'}>
+                                <Link href={'/pricelist#karpet'}>
                                     <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text" style={{cursor: "pointer"}}>
                                         <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Karpet</div>
                                     </div>
@@ -113,7 +113,7 @@ export default function SliderCardService() {
                         <SwiperSlide >
                             <div className="relative inline-block conten-overlay">
                                 <Image className="block rounded-md " src={bedcover} />
-                                <Link href={'/pricelist'}>
+                                <Link href={'/pricelist#bed-cover'}>
                                     <div className="absolute transition-all duration-300 ease-in w-full rounded-b h-11 left-0 bottom-1.5 bg-zinc-400/50 overlay-text" style={{cursor: "pointer"}}>
                                         <div className="absolute text-xl text-white -translate-x-1/2 -translate-y-1/2 top-2/4 left-2/4">Bed Cover</div>
                                     </div>

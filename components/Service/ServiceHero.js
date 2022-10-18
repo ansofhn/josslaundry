@@ -4,6 +4,7 @@ import Link from "next/link";
 import Button from "../Button";
 import { MdNavigateNext } from "react-icons/md";
 import layanankami from '../../public/assets/layanan-kami-2.png';
+// import layanankami from '../../public/assets/vektor-hero-layanan-kami.svg'
 
 export default function ServiceHero() {
   return (
