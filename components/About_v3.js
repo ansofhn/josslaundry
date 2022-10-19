@@ -20,7 +20,7 @@ const About_v3 = () => {
                     <div className="hidden md:block mt-8 lg:mt-0 px-32 md:p-0 md:w-full md:col-span-3">
                         <Image src={profile} className="rounded-xl" />
                     </div>
-                    <div className="my-auto md:col-span-4 text-center md:text-left lg:text-justify">
+                    <div className="my-auto md:col-span-4 text-justify">
                         <div className="text-sm lg:text-base leading-7 leading-relaxe" style={{'color':'#08291A'}}>
                             <b>Joss Laundry</b> lahir di saat pandemi Covid-19, tepatnya pada 27 Juni 2020 oleh PT 
                             Berkah Bersih Semesta yang merupakan perusahaan karya anak bangsa bergerak di bidang jasa binatu.
@@ -38,7 +38,7 @@ const About_v3 = () => {
                     Lokasi Kami
                 </div>
                 <div className="grid md:grid-cols-7 md:gap-6 sm:mt-6 lg:mt-0 lg:gap-x-10 lg:gap-y-16 xl:gap-28 p-4 sm:mx-6 md:mx-10 lg:mx-16 xl:mx-20 2xl:mx-40 bg-white">
-                    <div className="my-auto text-center md:text-left lg:text-justify md:col-span-3">
+                    <div className="my-auto text-justify md:col-span-3">
                         <p className="text-sm lg:text-base leading-7 leading-relaxe" style={{'color':'#08291A'}}>
                             <b>Joss Laundry</b> pertama kali dibuka di Rawamangun, Jakarta Timur. <b className="text-maroon">Joss Laundry Telkom University</b>  sendiri merupakan salah satu cabang dari beberapa cabang <b>Joss Laundry</b> di daerah Bandung.
                         </p>
