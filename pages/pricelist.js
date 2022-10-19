@@ -43,7 +43,7 @@ export default function pricelist() {
             Pakaian Satuan
           </div>
           <div className="order-2 p-6 border-t-2 rounded-br-md rounded-bl-md bg-gray-50 border-amber md:order-3">
-            <h2 className="mt-2 mb-2 font-medium">Reguler (2 Hari)</h2>
+            <h2 className="mt-2 mb-2 font-medium">Reguler (24 Jam)</h2>
             <div className="flex items-center justify-between text-sm font-light text-darkgreen">
               <div>Cuci Kering Lipat 3 Kg</div>
               <div>18,000</div>
