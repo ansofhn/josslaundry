@@ -12,22 +12,22 @@ import Button from "./Button";
 export default function Promote() {
   return (
     <div className="container">
-      <div className="px-3 sm:px-10 py-6 mx-4 sm:mx-10 my-10 bg-softblue rounded-2xl md:px-0">
+      <div className="px-3 py-6 mx-4 my-10 sm:px-10 sm:mx-10 bg-softblue rounded-2xl md:px-0">
         <div className="grid grid-cols-1 sm:grid-cols-2">
           <div className="my-auto md:ml-10 lg:leading-9 text-darkgreen">
             <div className="mx-2 sm:hidden">
-              <Image src={illustration} width={"350px"} height={"235px"}/>
+              <Image src={illustration} width={"350px"} height={"235px"} />
             </div>
-            <h3 className="text-sm sm:text-base text-center sm:text-left font-semibold lg:text-xl xl:text-2xl 2xl:text-3xl ">
+            <h3 className="text-sm font-semibold text-center sm:text-base sm:text-left lg:text-xl xl:text-2xl 2xl:text-3xl ">
               Tidak ada waktu untuk ke JOSS LAUNDRY?
             </h3>
-            <h3 className="font-semibold text-sm sm:text-base text-center sm:text-left lg:text-xl xl:text-2xl 2xl:text-3xl">
-              <span className="font-bold text-base lg:text-xl xl:text-2xl 2xl:text-3xl text-maroon">
+            <h3 className="text-sm font-semibold text-center sm:text-base sm:text-left lg:text-xl xl:text-2xl 2xl:text-3xl">
+              <span className="text-base font-bold lg:text-xl xl:text-2xl 2xl:text-3xl text-maroon">
                 Pick Up and Delivery
               </span>{" "}
               aja!
             </h3>
-            <p className="text-center text-xs sm:text-base sm:text-left lg:text-base lg:mb-4 xl:text-lg xl:mb-6">
+            <p className="text-xs text-center sm:text-base sm:text-left lg:text-base lg:mb-4 xl:text-lg xl:mb-6">
               Cucian kelar tanpa harus keluar
             </p>
             <Link href={"https://wa.link/a0gqrg"}>
@@ -40,10 +40,10 @@ export default function Promote() {
               </Button>
             </Link>
           </div>
-          <div className="hidden sm:inline xl:ml-40 xl:mr-10 2xl:ml-64 mt-4 pl-2 md:mr-12 lg:ml-12">
-            <Image src={illustration} width={"350px"} height={"235px"}/>
+          <div className="hidden pl-2 mt-4 sm:inline xl:ml-40 xl:mr-10 2xl:ml-64 md:mr-12 lg:ml-12">
+            <Image src={illustration} width={"350px"} height={"235px"} />
           </div>
-          <div className="hidden sm:flex items-center text-center justify-between col-span-2 xl:gap-14 2xl:gap-24 my-4 md:m-10">
+          <div className="items-center justify-between hidden col-span-2 my-4 text-center sm:flex xl:gap-14 2xl:gap-24 md:m-10 text-darkgreen">
             <div className="mx-auto my-auto mt-0">
               <div className="mx-6 md:mx-10 2xl:mx-8">
                 <Image src={step1} />

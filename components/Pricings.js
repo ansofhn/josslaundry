@@ -13,9 +13,9 @@ export default function Pricing() {
                 <div className="sm:hidden mx-[4.5rem]">
                     <SliderComponent />                    
                 </div>
-                <div className="hidden sm:grid items-center justify-center grid-cols-3">
+                <div className="items-center justify-center hidden grid-cols-3 sm:grid text-darkgreen">
                     <div className="box-border flex items-end justify-end transition-all duration-300 ease-in">
-                        <div className="w-7/12 lg:px-4 lg:py-6 bg-white border-gray-500 border-solid shadow-xl rounded-xl">
+                        <div className="w-7/12 bg-white border-gray-500 border-solid shadow-xl lg:px-4 lg:py-6 rounded-xl">
                             <div className="text-center title">
                                 <p className="mb-3 text-base antialiased font-medium tracking-wide drop-shadow">Istimewa</p>
                                 <Image src={istimewa} width="130" height="115" />
