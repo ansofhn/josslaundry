@@ -16,7 +16,7 @@ const Navbar_v2 = () => {
   return (
     <>
       <nav className="fixed top-0 z-10 w-full bg-white md:border-b md:border-gray-100">
-        <div className="container flex flex-wrap items-center justify-between mx-auto sm:ml-0">
+        <div className="container flex flex-wrap items-center justify-between mx-auto">
           <Link href={"/"}>
             <div className="flex items-center py-2 cursor-pointer gap-x-2">
               <Image src={Logo} />
