@@ -3,6 +3,7 @@ import React from "react";
 import Footer_v2 from "../components/Footer_v2";
 import Navbar_v2 from "../components/Navbar_v2";
 import Pricing from "../components/Pricing";
+import ScrollToTop from "../components/ScrollToTop";
 
 export default function pricelist() {
   return (
@@ -23,7 +24,7 @@ export default function pricelist() {
         </div>
       </div>
       <Pricing />
-      <div className="container">
+      <div className="container text-darkgreen">
         <div className="mb-4 text-2xl font-bold text-center mt-14 xl:text-3xl 2xl:text-4xl text-maroon">
           Harga Lebih Lengkap
         </div>
@@ -105,11 +106,16 @@ export default function pricelist() {
           >
             House Care
           </div>
-          <div className="order-7 text-lg font-bold text-maroon md:order-6" id="lainnya">
+          <div
+            className="order-7 text-lg font-bold text-maroon md:order-6"
+            id="lainnya"
+          >
             Lainnya
           </div>
           <div className="order-6 p-6 border-t-2 rounded-br-md rounded-bl-md bg-gray-50 border-amber md:order-7">
-            <h2 className="mt-2 mb-2 font-medium" id="karpet">Karpet</h2>
+            <h2 className="mt-2 mb-2 font-medium" id="karpet">
+              Karpet
+            </h2>
             <div className="flex items-center justify-between text-sm font-light text-darkgreen">
               <div>Karpet Tebal Bulu</div>
               <div>18,000</div>
@@ -136,8 +142,10 @@ export default function pricelist() {
               <div>50,000</div>
             </div>
 
-            {/* Bed Cover */} 
-            <h2 className="mt-4 mb-2 font-medium" id="bed-cover">Bed Cover</h2>
+            {/* Bed Cover */}
+            <h2 className="mt-4 mb-2 font-medium" id="bed-cover">
+              Bed Cover
+            </h2>
             <div className="flex items-center justify-between text-sm font-light text-darkgreen">
               <div>Bed Cover Kecil</div>
               <div>25,000</div>
@@ -155,8 +163,10 @@ export default function pricelist() {
               <div>50,000</div>
             </div>
 
-            {/* Gorden */} 
-            <h2 className="mt-4 mb-2 font-medium" id="gorden">Gorden</h2>
+            {/* Gorden */}
+            <h2 className="mt-4 mb-2 font-medium" id="gorden">
+              Gorden
+            </h2>
             <div className="flex items-center justify-between text-sm font-light text-darkgreen">
               <div>Gorden</div>
               <div>10,000</div>
@@ -173,7 +183,6 @@ export default function pricelist() {
               <div>Bed Cover Fullset</div>
               <div>50,000</div>
             </div>
-
           </div>
           <div className="order-8 p-6 border-t-2 rounded-br-md rounded-bl-md bg-gray-50 border-amber">
             <h2 className="mt-2 mb-2 font-medium" id="helm">
@@ -208,7 +217,9 @@ export default function pricelist() {
             </div>
 
             {/* Shoes Care */}
-            <h2 className="mt-4 mb-2 font-medium" id="shoes-care">Shoes Care</h2>
+            <h2 className="mt-4 mb-2 font-medium" id="shoes-care">
+              Shoes Care
+            </h2>
             <div className="flex items-center justify-between text-sm font-light text-darkgreen">
               <div>Sepatu Sneakers</div>
               <div>40,000</div>
@@ -227,7 +238,9 @@ export default function pricelist() {
             </div>
 
             {/* Tas */}
-            <h2 className="mt-4 mb-2 font-medium" id="tas">Tas</h2>
+            <h2 className="mt-4 mb-2 font-medium" id="tas">
+              Tas
+            </h2>
             <div className="flex items-center justify-between text-sm font-light text-darkgreen">
               <div>Tas Gunung</div>
               <div>30,000</div>
@@ -247,6 +260,7 @@ export default function pricelist() {
           </div>
         </div>
       </div>
+      <ScrollToTop />
       <Footer_v2 />
     </>
   );
