@@ -113,7 +113,7 @@ export default function Pricing() {
                     <FaCheckCircle className="text-maroon" /> Lipat{" "}
                   </span>
                   <span className="flex items-center justify-start gap-2 text-base font-normal">
-                    <FaCheckCircle className="text-maroon" /> 1 Hari Kelar{" "}
+                    <FaCheckCircle className="text-maroon" /> 24 Jam Kelar{" "}
                   </span>
                 </div>
               </div>
