@@ -24,7 +24,7 @@ export default function pricelist() {
         </div>
       </div>
       <Pricing />
-      <div className="container text-darkgreen">
+      <div className="container mb-4 text-darkgreen">
         <div className="mb-4 text-2xl font-bold text-center mt-14 xl:text-3xl 2xl:text-4xl text-maroon">
           Harga Lebih Lengkap
         </div>
