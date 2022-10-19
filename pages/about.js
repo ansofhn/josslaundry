@@ -5,8 +5,8 @@ import Navbar_v2 from "../components/Navbar_v2";
 import Footer_v2 from "../components/Footer_v2";
 import ScrollToTop from "../components/ScrollToTop";
 import Image from "next/image";
-import aboutus from "../public/assets/aboutus.png";
-import About_v2 from "../components/About_v2";
+import aboutus from "../public/assets/about.svg";
+import About_v3 from "../components/About_v3";
 
 export default function about() {
   return (
@@ -15,21 +15,17 @@ export default function about() {
         <title>Joss Laundry - Tentang</title>
       </Head>
       <Navbar_v2 />
-      <div className="w-full bg-gradient-to-tr from-orange-500 to-yellow-500">
-        <div className="container">
-          <div className="grid items-center justify-center grid-cols-2 py-0 m-0 mx-5 md:my-14">
-            <div className="px-20 text-white">
-              <h1 className="font-bold md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
-                Tentang Kami
-              </h1>
-            </div>
-            <div className="w-full mx-auto mt-20 mb-10">
-              <Image src={aboutus} />
-            </div>
+      <section className="px-3 bg-gradient-to-tr from-orange-500 to-yellow-500 lg:h-[555px]">
+        <div className="grid lg:grid-cols-2 items-center justify-items-center lg:gap-5">
+          <div className="grid place-items-center h-[22rem] sm:h-[25.5rem] pt-[8rem] sm:pt-0 sm:mt-[10rem] lg:mt-[14.5rem] xl:mt-[13.8rem]">
+            <Image src={aboutus} height={"540rem"} width={"540rem"}/>
+          </div>
+          <div className="flex flex-col justify-center items-center">
+            <p className="mb-6 sm:mb-10 lg:mb-0 flex text-4xl sm:text-5xl lg:text-6xl font-bold text-white text-center tracking-normal">Tentang Kami</p>
           </div>
         </div>
-      </div>
-      <About_v2 />
+      </section>
+      <About_v3 />
       <ScrollToTop />
       <Footer_v2 />
     </>

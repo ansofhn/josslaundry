@@ -22,7 +22,7 @@ const Navbar_v2 = () => {
               <Image src={Logo} />
             </div>
           </Link>
-          <div className="flex md:order-2 mr-2 sm:mr-[-6rem] md:mr-[0rem]">
+          <div className="flex md:order-2 mr-2 sm:mr-0">
             <Link href={"https://wa.link/a0gqrg"}>
               <button className="px-10 py-2 text-sm font-bold transition duration-300 rounded-md cursor-pointer bg-amber text-maroon hover:bg-maroon hover:text-white">
                 Hubungi Kami

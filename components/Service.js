@@ -16,8 +16,8 @@ export default function Service() {
           Layanan Kami
         </div>
         <div className="sm:mb-10 text-sm font-light text-center text-textColor">
-          Pelayanan terbaik dengan didukung kinerja yang handal dan
-          berpengalaman
+          Pelayanan terbaik didukung oleh kinerja yang handal dan
+          berpengalaman.
         </div>
         <div className="grid sm:grid-cols-3 grid-rows-3 mt-6 sm:mt-16 sm:mb-24 mx-6 md:mx-10 lg:mx-12 xl:mx-32 xl:mx-40 ">
           <div className="flex items-center justify-end sm:h-52">

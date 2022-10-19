@@ -14,6 +14,18 @@
   background-image: url('../public/assets/josLaundry.png');
   backdrop-filter: hue-rotate(120deg);
 }
+
+.dropdown-btn{
+  background-image: url("../public/assets/arrow.png");
+  background-size: 25px;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.dropdown-button:hover .dropdown-container {display: block;}
+
+.dropdown-container {display: none;}
+
 /* html,
 body {
   padding: 0;
