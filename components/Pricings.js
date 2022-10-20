@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { FaCheckCircle } from "react-icons/fa";
 import express from "../public/assets/express_v4.png";
 import reguler from "../public/assets/reguler_v3.png";
 import istimewa from "../public/assets/istimewa_v3.png";
@@ -10,7 +9,7 @@ export default function Pricing() {
     return (
         <div className="w-full">
             <div className="container">
-                <div className="sm:hidden mx-[4.5rem]">
+                <div className="sm:hidden mx-[5rem]">
                     <SliderComponent />                    
                 </div>
                 <div className="items-center justify-center hidden grid-cols-3 sm:grid text-darkgreen">

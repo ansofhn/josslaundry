@@ -10,9 +10,9 @@ export default function Hero() {
     <>
       <div className="bg-gradient-to-tr from-orange-500 to-yellow-500">
         <div className="container">
-          <div className="p-0 m-0 grid items-center justify-center grid-cols-2 sm:mx-5 md:my-8">
-            <div className="px-6 sm:px-10 text-white py-15 sm:px-2 sm:py-12 md:py-0 md:ml-6 lg:mb-12 xl:px-14">
-              <h1 className="text-2xl mt-14 sm:text-6xl font-bold 2xl:mr-20">
+          <div className="grid items-center justify-center grid-cols-2 p-0 m-0 my-8 lg:my-9 sm:mx-5">
+            <div className="px-6 text-white py-15 sm:px-2 sm:py-12 md:py-0 md:ml-6 lg:mb-12 xl:px-14">
+              <h1 className="text-2xl font-bold mt-14 md:text-5xl lg:text-6xl 2xl:mr-20">
                 Bebaskan Indonesia Dari Jemuran
               </h1>
               <p className="hidden lg:inline my-2.5 mr-20 lg:mr-10 lg:text-sm xl:text-base">
@@ -22,7 +22,7 @@ export default function Hero() {
               <Link target={"_blank"} href={"https://wa.link/a0gqrg"}>
                 <Button
                   className={
-                    "hidden lg:inline flex items-center gap-2 transition duration-300 text-sm font-bold px-6 py-2.5 mt-6 rounded-lg bg-maroon text-white"
+                    "hidden lg:inline items-center gap-2 transition duration-300 text-sm font-bold px-6 py-2.5 mt-6 rounded-lg bg-maroon text-white"
                   }
                 >
                   Hubungi Kami

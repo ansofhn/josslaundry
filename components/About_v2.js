@@ -1,9 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import profile from "../public/assets/services/servoce-joslaundry.jpeg";
-import picig1 from "../public/assets/picig1.png";
-import picig2 from "../public/assets/picig2.png";
-import picig3 from "../public/assets/picig3.png";
 
 function About_v2() {
   return (

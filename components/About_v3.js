@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 import profile from "../public/assets/brand.png";
 import faq from "../public/assets/faq.png";
 
