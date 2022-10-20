@@ -60,7 +60,7 @@ const About_v3 = () => {
             </div>
             <div className="p-0 mt-10 overflow-hidden bg-gray-100 md:mt-0 md:col-span-4 rounded-xl h-60 lg:h-96">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d247.51719730112436!2d107.63274117293865!3d-6.976826397453378!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x797cfa46dc0dc61c!2sJOSS%20Laundry%20Telkom%20University!5e0!3m2!1sid!2sid!4v1666238288924!5m2!1sid!2sid"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3427.7585983397958!2d107.63269802577514!3d-6.977425834407524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e91956099c83%3A0x797cfa46dc0dc61c!2sJOSS%20Laundry%20Telkom%20University!5e0!3m2!1sid!2sid!4v1666241086258!5m2!1sid!2sid"
                 height="500"
                 allowfullscreen=""
                 loading="lazy"
