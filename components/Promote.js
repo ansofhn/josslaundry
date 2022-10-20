@@ -33,7 +33,7 @@ export default function Promote() {
             <Link href={"https://wa.link/a0gqrg"}>
               <Button
                 className={
-                  "mx-auto sm:mx-0 flex items-center gap-2 transition duration-300 text-sm font-bold px-8 py-2.5 mt-2 rounded-lg bg-amber text-maroon"
+                  "mx-auto sm:mx-0 flex items-center gap-2 transition duration-300 text-sm font-bold px-8 py-2.5 mt-2 rounded-lg bg-amber text-maroon hover:bg-maroon hover:text-white"
                 }
               >
                 Hubungi Kami

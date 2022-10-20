@@ -9,10 +9,6 @@ const Navbar_v2 = () => {
   const router = useRouter();
   const currentRoute = router.pathname;
 
-  const handleChange = (e) => {
-    e.preventDefault();
-  };
-
   return (
     <>
       <nav className="fixed top-0 z-10 w-full bg-white md:border-b md:border-gray-100">
@@ -57,26 +53,22 @@ const Navbar_v2 = () => {
           >
             <ul className="flex flex-col gap-1 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-4 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white">
               <li>
-                <Link href={"/"} onClick={handleChange}>
+                <Link href={"/"}>
                   <a
-                    className={`block py-2 px-3 transition duration-400 font-medium md:bg-transparent hover:bg-gray-100 rounded-md md:text-textColor  ${
+                    className={`block py-2 px-3 transition duration-400 font-medium rounded-md md:text-textColor  ${
                       currentRoute === "/"
                         ? "md:bg-maroon md:hover:bg-maroon md:hover:text-white hover:bg-maroon hover:text-white bg-maroon text-white md:text-white md:px-3"
                         : "md:hover:bg-gray-100 md:hover:text-textColor hover:bg-gray-100 hover:text-textColor"
                     }`}
-                    onClick={() => {
-                      router.push("/");
-                      handleChange;
-                    }}
                   >
                     Beranda
                   </a>
                 </Link>
               </li>
               <li>
-                <Link href={"/about"} onClick={handleChange}>
+                <Link href={"/about"}>
                   <a
-                    className={`block py-2 px-3 transition duration-400 font-medium rounded-md hover:bg-gray-100 md:text-textColor  ${
+                    className={`block py-2 px-3 transition duration-400 font-medium rounded-md md:text-textColor  ${
                       currentRoute === "/about"
                         ? "md:bg-maroon md:hover:bg-maroon md:hover:text-white hover:bg-maroon hover:text-white bg-maroon text-white md:text-white md:px-3"
                         : "md:hover:bg-gray-100 md:hover:text-textColor hover:bg-gray-100 hover:text-textColor"
@@ -87,7 +79,7 @@ const Navbar_v2 = () => {
                 </Link>
               </li>
               <li>
-                <Link href={"/service"} onClick={handleChange}>
+                <Link href={"/service"}>
                   <a
                     className={`block py-2 px-3 transition duration-400 font-medium rounded-md md:text-textColor ${
                       currentRoute === "/service"
@@ -100,9 +92,9 @@ const Navbar_v2 = () => {
                 </Link>
               </li>
               <li>
-                <Link href={"/pricelist"} onClick={handleChange}>
+                <Link href={"/pricelist"}>
                   <a
-                    className={`block py-2 px-3 transition duration-400 font-medium rounded-md hover:bg-gray-100 md:text-textColor ${
+                    className={`block py-2 px-3 transition duration-400 font-medium rounded-md md:text-textColor ${
                       currentRoute === "/pricelist"
                         ? "md:bg-maroon md:hover:bg-maroon md:hover:text-white hover:bg-maroon hover:text-white bg-maroon text-white md:text-white md:px-3"
                         : "md:hover:bg-gray-100 md:hover:text-textColor hover:bg-gray-100 hover:text-textColor"
