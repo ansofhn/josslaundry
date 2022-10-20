@@ -11,7 +11,7 @@ export default function ServiceHero() {
             <Image src={layanankami} />
           </div>
           <div className="flex flex-col items-center justify-center">
-            <p className="flex text-4xl font-bold tracking-normal text-center text-white md:text-5xl lg:text-6xl">
+            <p className="flex text-3xl font-bold tracking-normal text-center text-white sm:text-4xl md:text-5xl lg:text-6xl">
               Layanan Kami
             </p>
           </div>
