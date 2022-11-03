@@ -17,7 +17,7 @@ const About_v3 = () => {
     <motion.div
       initial="initial"
       whileInView="animate"
-      viewport={{ once: true, amount: 0.4 }}
+      viewport={{ once: true, amount: 0.25 }}
       exit={{ opacity: 0 }}
       className="w-full bg-white"
     >
