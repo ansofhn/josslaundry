@@ -9,7 +9,7 @@ const fadeInUp = {
     y: 0,
     opacity: 1,
     transition: {
-      duration: 0.6,
+      duration: 0.7,
       ease: easing,
     },
   },
@@ -18,7 +18,7 @@ const fadeInUp = {
 const stagger = {
   animate: {
     transition: {
-      staggerChildren: 0.2,
+      staggerChildren: 0.25,
     },
   },
 };
