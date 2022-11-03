@@ -8,11 +8,19 @@ import step4 from "../public/assets/step4.png";
 import step5 from "../public/assets/step5.png";
 import Link from "next/link";
 import Button from "./Button";
+import { motion } from "framer-motion";
+import { Animation } from "../components/Animation";
 
 export default function Promote() {
   return (
-    <div className="container">
-      <div className="px-3 py-6 mx-4 my-10 sm:px-10 sm:mx-10 bg-softblue rounded-2xl md:px-0">
+    <motion.div
+      initial="initial"
+      whileInView="animate"
+      viewport={{ once: true, amount: 0.5 }}
+      exit={{ opacity: 0 }}
+      className="container"
+    >
+      <motion.div variants={Animation.fadeInUp} className="px-3 py-6 mx-4 my-10 sm:px-10 sm:mx-10 bg-softblue rounded-2xl md:px-0">
         <div className="grid grid-cols-1 sm:grid-cols-2">
           <div className="my-auto md:ml-10 lg:leading-9 text-darkgreen">
             <div className="mx-2 sm:hidden">
@@ -76,7 +84,7 @@ export default function Promote() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 }

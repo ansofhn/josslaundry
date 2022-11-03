@@ -4,10 +4,11 @@ import Footer_v2 from "../components/Footer_v2";
 import Navbar_v2 from "../components/Navbar_v2";
 import Pricing from "../components/Pricing";
 import ScrollToTop from "../components/ScrollToTop";
+import { motion } from "framer-motion";
 
 export default function pricelist() {
   return (
-    <>
+    <motion.div exit={{ opacity: 0 }}>
       <Head>
         <title>Joss Laundry - Daftar Harga</title>
       </Head>
@@ -262,6 +263,6 @@ export default function pricelist() {
       </div>
       <ScrollToTop />
       <Footer_v2 />
-    </>
+    </motion.div>
   );
 }

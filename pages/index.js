@@ -9,10 +9,11 @@ import Service from "../components/Service";
 import HomeLayout from "../layouts/HomeLayout";
 import ScrollToTop from "../components/ScrollToTop";
 import OurPrice from "../components/OurPrice";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
-    <>
+    <motion.div exit={{ opacity: 0 }}>
       <Head>
         <title>Joss Laundry - Beranda</title>
       </Head>
@@ -24,7 +25,7 @@ export default function Home() {
       <Promote />
       <ScrollToTop />
       <Footer_v2 />
-    </>
+    </motion.div>
   );
 }
 

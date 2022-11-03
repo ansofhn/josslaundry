@@ -7,10 +7,11 @@ import ScrollToTop from "../components/ScrollToTop";
 import Image from "next/image";
 import aboutus from "../public/assets/about.svg";
 import About_v3 from "../components/About_v3";
+import { motion } from "framer-motion";
 
 export default function about() {
   return (
-    <>
+    <motion.div exit={{ opacity: 0 }}>
       <Head>
         <title>Joss Laundry - Tentang</title>
       </Head>
@@ -32,7 +33,7 @@ export default function about() {
       <About_v3 />
       <ScrollToTop />
       <Footer_v2 />
-    </>
+    </motion.div>
   );
 }
 
