@@ -8,10 +8,11 @@ import Image from "next/image";
 import aboutus from "../public/assets/about.svg";
 import About_v3 from "../components/About_v3";
 import { motion } from "framer-motion";
+import { Animation } from "../components/Animation";
 
 export default function about() {
   return (
-    <motion.div exit={{ opacity: 0 }}>
+    <motion.div initial="initial" animate="animate" exit={{ opacity: 0 }}>
       <Head>
         <title>Joss Laundry - Tentang</title>
       </Head>
@@ -22,11 +23,11 @@ export default function about() {
             <div className="grid scale-75 place-items-center lg:scale-100">
               <Image src={aboutus} />
             </div>
-            <div className="flex flex-col items-center justify-center">
+            <motion.div variants={Animation.fadeInUp} className="flex flex-col items-center justify-center">
               <p className="flex text-3xl font-bold tracking-normal text-center text-white sm:text-4xl md:text-5xl lg:text-6xl">
                 Tentang Kami
               </p>
-            </div>
+            </motion.div>
           </div>
         </div>
       </section>

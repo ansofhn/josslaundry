@@ -2,6 +2,8 @@ import Image from "next/image";
 import React, { useState } from "react";
 import profile from "../public/assets/brand.png";
 import faq from "../public/assets/faq.png";
+import { motion } from "framer-motion";
+import { Animation } from "../components/Animation";
 
 const About_v3 = () => {
   const [showQ1, setShowQ1] = useState(false);
@@ -12,9 +14,15 @@ const About_v3 = () => {
   const [showQ6, setShowQ6] = useState(false);
 
   return (
-    <div className="w-full bg-white">
+    <motion.div
+      initial="initial"
+      whileInView="animate"
+      viewport={{ once: true, amount: 0.4 }}
+      exit={{ opacity: 0 }}
+      className="w-full bg-white"
+    >
       <div className="container text-darkgreen">
-        <div>
+        <motion.div variants={Animation.fadeInUp}>
           <div className="mt-6 sm:mx-6 md:mx-16 xl:mx-20 2xl:mx-40">
             <div className="mx-10 mt-6 sm:mt-10 md:hidden">
               <Image src={profile} className="rounded-xl" />
@@ -345,9 +353,9 @@ const About_v3 = () => {
               <Image src={faq} />
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

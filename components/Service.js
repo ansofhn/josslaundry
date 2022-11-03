@@ -15,7 +15,7 @@ export default function Service() {
       <motion.div
         initial="initial"
         whileInView="animate"
-        viewport={{ once: true, amount: 0.5 }}
+        viewport={{ once: true, amount: 0.2 }}
         exit={{ opacity: 0 }}
         className="container"
       >
