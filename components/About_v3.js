@@ -17,7 +17,7 @@ const About_v3 = () => {
     <motion.div
       initial="initial"
       whileInView="animate"
-      viewport={{ once: true, amount: 0.25 }}
+      viewport={{ once: true, amount: 0.22 }}
       exit={{ opacity: 0 }}
       className="w-full bg-white"
     >
@@ -27,7 +27,7 @@ const About_v3 = () => {
             <div className="mx-10 mt-6 sm:mt-10 md:hidden">
               <Image src={profile} className="rounded-xl" />
             </div>
-            <div className="mt-6 text-lg font-semibold text-center lg:mt-20 sm:mt-10 sm:mb-4 md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-maroon">
+            <div className="mt-6 text-lg font-semibold text-center lg:mt-32 sm:mt-10 sm:mb-4 md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-maroon">
               Sejarah Kami
             </div>
           </div>

@@ -10,7 +10,7 @@ export default function HouseCare() {
     <motion.section
       initial="initial"
       whileInView="animate"
-      viewport={{ once: true, amount: 0.7 }}
+      viewport={{ once: true, amount: 0.8 }}
       exit={{ opacity: 0 }}
       className="px-8 py-5 mt-8"
     >

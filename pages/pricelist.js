@@ -33,7 +33,7 @@ export default function pricelist() {
       <motion.div
         initial="initial"
         whileInView="animate"
-        viewport={{ once: true, amount: 0.3 }}
+        viewport={{ once: true, amount: 0.18 }}
         exit={{ opacity: 0 }}
         className="container mb-4 text-darkgreen"
       >
